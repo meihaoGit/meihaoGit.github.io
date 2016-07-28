@@ -24,29 +24,193 @@
       </header>
       <section>
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<a id="housemanagerapp" class="anchor" href="#housemanagerapp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HouseManagerApp</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<h1></h1>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<h5>
+<a id="rails-勉強-baukisbootstrap適用" class="anchor" href="#rails-%E5%8B%89%E5%BC%B7-baukisbootstrap%E9%81%A9%E7%94%A8" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Rails 勉強 baukis→bootstrap適用</h5>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<hr>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<p><a href="https://github.com/seyhunak/twitter-bootstrap-rails">twitter-bootstrap-rails</a></p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<pre><code>gem "twitter-bootstrap-rails"
+</code></pre>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<ul>
+<li>bootstrap 適用</li>
+</ul>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<pre><code>rails g bootstrap:install static
+rails g bootstrap:themed
+</code></pre>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<hr>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Rails →　datetimepicker を使用    </p>
+
+<pre><code>gem 'momentjs-rails', '~&gt; 2.11', '&gt;= 2.11.1'
+gem 'bootstrap3-datetimepicker-rails', '~&gt; 4.17', '&gt;= 4.17.37'
+</code></pre>
+
+<p><a href="http://blog.10rane.com/2015/02/18/introduced-bootstrap3-to-rails4/">bootstrap3-to-rails4</a></p>
+
+<pre><code>cp -a bootstrap-3.3.2-dist/fonts /bootstrap3/vendor/assets
+</code></pre>
+
+<p><a href="http://tweeeety.hateblo.jp/entry/2016/02/10/000712">【git】既存のディレクトリやソースをgit管理化にしてリモートに紐づける流れ</a></p>
+
+<ul>
+<li>※ リポジトリ化する</li>
+</ul>
+
+<pre><code>$ git init
+</code></pre>
+
+<pre><code>$ vi .git/config 
+</code></pre>
+
+<ul>
+<li>下記を修正</li>
+</ul>
+
+<pre><code>[core]
+  repositoryformatversion = 0
+  filemode = true
+  bare = false
+  logallrefupdates = true
+  ignorecase = true
+  precomposeunicode = true
+</code></pre>
+
+<ul>
+<li>※ リポジトリ情報追加</li>
+</ul>
+
+<pre><code>$ git remote add origin git@github.com:ユーザ名/リポジトリ名.git
+</code></pre>
+
+<ul>
+<li>※ リポジトリ（ディレクトリ）ごとにauthorを登録したいとき</li>
+</ul>
+
+<pre><code>$ git config user.name "Your Name"
+$ git config user.email "you@example.com"
+</code></pre>
+
+<ul>
+<li>※ 試しにgit branchしてみると何も出てきません</li>
+</ul>
+
+<pre><code>$ git branch
+</code></pre>
+
+<ul>
+<li>※ git statusはこのタイミングでディレクトリにあるファイルがすべて差分として表示されます</li>
+</ul>
+
+<pre><code>$ git status  
+
+$ git fetch    
+
+$ git pull origin master   
+
+$ git branch     
+</code></pre>
+
+<ul>
+<li>※ 適当なブランチを切る</li>
+<li>※ カラのcommitをしてpull req出す</li>
+</ul>
+
+<pre><code>$ git commit --allow-empty -m 'created PR'
+$ git push -u origin master
+</code></pre>
+
+<h5>
+<a id="途中問題解決" class="anchor" href="#%E9%80%94%E4%B8%AD%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>途中問題解決</h5>
+
+<ol>
+<li>※ 突然railsコマンドが動かなくなって<br>
+</li>
+</ol>
+
+<pre><code>$ spring stop
+
+$ ps aux | grep spring
+rbuser    7853  0.0  0.0 112652
+
+$ kill -9 7853
+
+</code></pre>
+
+<ol>
+<li> git コマンド補足</li>
+</ol>
+
+<pre><code># コミットへ戻る
+$ git reset
+
+# ブロック単位
+$ git add -p
+</code></pre>
+
+<ol>
+<li> テーブル書き方　</li>
+</ol>
+
+<pre><code>| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     |
+| column     |      column |    column    |
+| will       |        will |     will     |
+| be         |          be |      be      |
+| left       |       right |    center    |
+| aligned    |     aligned |   aligned    |
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="left">Left align</th>
+<th align="right">Right align</th>
+<th align="center">Center align</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">This</td>
+<td align="right">This</td>
+<td align="center">This</td>
+</tr>
+<tr>
+<td align="left">column</td>
+<td align="right">column</td>
+<td align="center">column</td>
+</tr>
+<tr>
+<td align="left">will</td>
+<td align="right">will</td>
+<td align="center">will</td>
+</tr>
+<tr>
+<td align="left">be</td>
+<td align="right">be</td>
+<td align="center">be</td>
+</tr>
+<tr>
+<td align="left">left</td>
+<td align="right">right</td>
+<td align="center">center</td>
+</tr>
+<tr>
+<td align="left">aligned</td>
+<td align="right">aligned</td>
+<td align="center">aligned</td>
+</tr>
+</tbody>
+</table>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
