@@ -53,7 +53,7 @@ WickedPdf.config = {
   # GET /customers/1.json
   def show
     @customer = Customer.find(params[:id])
- 
+
     respond_to do |format|
       format.html # show.html.erb
       format.pdf do
@@ -73,7 +73,7 @@ WickedPdf.config = {
           disposition: "inline"
       end
     end
- 
+
   end
 ~~~
 

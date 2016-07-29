@@ -20,7 +20,8 @@ repository: meihaoGit/meihaoGit.github.io # ex. DONGChuan/DONGChuan.github.io
 # The base hostname & protocol for your site
 # For local test, please use http://localhost:4000
 # For production, use your github page url. ex. http://dongchuan.github.io
-url: https://meihaogit.github.io/
+#　url: https://meihaogit.github.io/
+url: http://localhost:4000
 
 ## Gem
 gems:
@@ -44,7 +45,10 @@ defaults: []
 
 kramdown:
   input: GFM
-  enable_coderay: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
 
 # Disque
 disque: httpmeihaogitgithubio.disqus.com # ex. httpdongchuangithubio.disqus.com
