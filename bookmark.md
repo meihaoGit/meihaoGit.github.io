@@ -7,6 +7,8 @@ menu: Bookmark
 
 ## Ruby On rails 
 - [railstutorial](https://www.railstutorial.org/book) - RUBY ON RAILS TUTORIAL (RAILS 5)
+- [railstutorial-jp](http://railstutorial.jp/) - Ruby on Rails チュートリアル (RAILS 4)
+- [RubyStyleGuide](https://github.com/bbatsov/ruby-style-guide)  -The Ruby Style Guide
 
 ## Java
 - [Dom4j](https://dom4j.github.io/) - Flexible XML framework
