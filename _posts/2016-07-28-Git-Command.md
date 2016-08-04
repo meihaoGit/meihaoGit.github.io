@@ -6,18 +6,23 @@ category: Git
 tags: [Git]
 ---
 
-### Git Command 
+## Git 常に使用命令
+##### Git Command 
 
 - git初期化   
 
 - ※ リポジトリ化する   
+
 ~~~
 $ git init
 ~~~
+
 ~~~
 $ vi .git/config  
 ~~~
+
 - 下記を修正    
+
 ~~~
 [core]
   repositoryformatversion = 0  
@@ -27,23 +32,28 @@ $ vi .git/config
   ignorecase = true
   precomposeunicode = true
 ~~~
+
 ##### リポジトリ情報追加  
 
 ~~~
 $ git remote add origin git@github.com:ユーザ名/リポジトリ名.git
 ~~~
+
 - ※ リポジトリ（ディレクトリ）ごとにauthorを登録したいとき  
+
 ~~~
 $ git config user.name "Your Name"
 $ git config user.email "you@example.com"
 ~~~
 
 - ※ 試しにgit branchしてみると何も出てきません    
+
 ~~~
 $ git branch
 ~~~
 
-- ※ git statusはこのタイミングでディレクトリにあるファイルがすべて差分として表示されます
+- ※ git statusはこのタイミングでディレクトリにあるファイルがすべて差分として表示されます   
+
 ~~~
 $ git status  
 
@@ -64,9 +74,21 @@ git push origin <名前>  develop
 - ※ 適当なブランチを切る
 
 - ※ カラのcommitをしてpull req出す
+
 ~~~
 $ git commit --allow-empty -m 'created PR'
 $ git push -u origin master
 ~~~
 
+-  ガベージコレクション（英語: garbage collection; GC）とは、プログラムが動的に確保したメモリ領域    
 
+~~~
+$ git gc --auto
+~~~
+
+- .git/objects のファイルサイズ
+
+~~~
+$ du -sh .git/objects
+  6.4M    .git/objects
+~~~
