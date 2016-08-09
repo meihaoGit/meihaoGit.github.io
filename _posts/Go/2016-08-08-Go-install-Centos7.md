@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Go 開発"
-date:   2016-08-05
+date:   2016-08-08
 category: Go
 tags: [Go]
 ---
@@ -41,7 +41,7 @@ $ vim ~/.bash_profile
   export PATH=$PATH:/usr/local/go/bin
 ~~~
 
-反映
+-  反映
 
 ~~~
 $ source ~/.bash_profile 
