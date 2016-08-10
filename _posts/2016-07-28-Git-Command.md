@@ -93,3 +93,7 @@ $ git gc --auto
 $ du -sh .git/objects
   6.4M    .git/objects
 ~~~
+
+
+$ git config --global http.proxy http://proxy.example.com:8080
+$ git config --global https.proxy http://proxy.example.com:8080
