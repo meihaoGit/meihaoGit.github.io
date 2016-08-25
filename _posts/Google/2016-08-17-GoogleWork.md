@@ -79,12 +79,15 @@ $ ruby -v
 -  Railsインストール
 
 ~~~
+
 $ gem update --system
 $ gem install --no-ri --no-rdoc rails
 $ gem install sqlite3 -v '1.3.11'
 $ gem install bundler
 $ rbenv rehash
 
+~~~
+~~~
 バージョンを確認する
 rails -v
-
+~~~
