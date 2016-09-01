@@ -8,10 +8,11 @@ tags: [Java]
 
 ## Java Spring-boot開発準備
 
-- 参考サイト    
+- [IntelliJ IDEA](http://www.oracle.com/technetwork/java/javase/downloads/index.html) - Java 8
 
-IDE 
-- [IntelliJ IDEA](https://www.vagrantup.com/) - IntelliJ IDEA 15
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - IntelliJ IDEA 15
+
+
 
 ---
 
