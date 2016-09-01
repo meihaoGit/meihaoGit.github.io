@@ -24,42 +24,49 @@ tags: [vagrant]
 
 ---
 
-- vagrant　バージョン確認
+- vagrant　バージョン確認  
 
-C:\Tools\CentOS\centos7>vagrant -v  
+
+~~~
+$ C:\Tools\CentOS\centos7>vagrant -v  
 
 Vagrant 1.7.2
+
+~~~
 
     1. ボックスの追加   
 
 ~~~
-vagrant box add centOS7 centos7.box   
+$ vagrant box add centOS7 centos7.box   
+
 ~~~
 
     2. ボックスのリスト表示  
 
 ~~~
-vagrant box list   
+$ vagrant box list   
 ~~~
 
     3. ボックスの初期化   
      
 ~~~
-vagrant init
+$ vagrant init    
 
-~~~
-    centos7.boxフォルダ直下に  
+centos7.boxフォルダ直下に  
     .vagrant
      Vagrantfile
-     を生成
+
+~~~
 
     4. Vagrantfileファイルを下記箇所を修正   
     
 ~~~
+
  ① # config.vm.network "forwarded_port", guest: 80, host: 8080  
  ② # config.vm.network "private_network", ip: "192.168.33.10"   
  
 コメントをはず       
+
 ~~~
 
 ※　①　apacheアクセスために使用→TCP 8080番ポートは別で修正できる
@@ -128,7 +135,6 @@ teratermツールを起動
 PS:vagrant
 
 正常に接続完了
-centos初期設定など別資料参考
 
 * LAMP環境とは   
 
@@ -137,31 +143,39 @@ Linux、Apache、MySQL、PHPの環境でWebシステムを開発することを�
 最近のWebシステムは、LAMP環境での開発が主流となっているため、LAMP環境で開発が出来るWebエンジニアの採用ニーズは非常に高まっています。
 ~~~
 
-**************************************
-削除：
-vagrant box remove CentOS7
-**************************************
+- vagrant box 削除
 
-vagrant ssh-config --host 192.168.33.11
+~~~
+
+$ vagrant box remove [ボックス名]
+
+~~~
+
+## SSH接続設定
+
+~~~
+$ vagrant ssh-config --host 192.168.33.11
+
+~~~
 
 
-コピーして持ってきたtemplateの中にscripts/vagrant.shというシェルスクリプトがある。
-date > /etc/vagrant_box_build_time
+##  vagrant package再作成前準備
 
+~~~
 mkdir -pm 700 /home/vagrant/.ssh
 curl -L https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub -o /home/vagrant/.ssh/authorized_keys
 chmod 0600 /home/vagrant/.ssh/authorized_keys
 chown -R vagrant:vagrant /home/vagrant/.ssh
 
-vagrant ssh-config
+~~~
 
-ssh-keygen -yf xxxx/vagrant_private_key > public_key
 
 ## エラー解決
 
 - vagrant package作成後
 
-*****************************************************
+~~~
+
 【エラー】解決方法
 「default: Warning: Authentication failure. Retrying...」
 ※　
@@ -172,22 +186,12 @@ Made sure to halt by typing 'vagrant halt'
 ③　
 C:\vagrant\.vagrant\machines\default\virtualbox
 private_key　を削除
-*****************************************************
 
+vagrant ssh-config
 
-PATH=$PATH:$HOME/bin
+ssh-keygen -yf xxxx/vagrant_private_key > public_key
 
-export PATH
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-*****************************************************
-CentOS (RHEL) にProxyの設定
-
-# vi /etc/profile
-# source /etc/profile
-*****************************************************
-
+~~~
 
 
 ## ボックスサイズの最小化
