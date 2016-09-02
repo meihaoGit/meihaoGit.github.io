@@ -97,3 +97,18 @@ $ du -sh .git/objects
 
 $ git config --global http.proxy http://proxy.example.com:8080
 $ git config --global https.proxy http://proxy.example.com:8080
+
+
+## Git SSH key生成
+
+- SSH 公開鍵の作成
+
+- [SSH key](https://help.github.com/articles/generating-an-ssh-key/) - SSH key
+
+~~~
+
+$ ssh-keygen
+
+$ cat ~/.ssh/id_rsa.pub
+
+~~
