@@ -60,3 +60,19 @@ compile('org.slf4j:slf4j-api:1.7.21')
 - 画像表示テスト
 ![spring構造](img/spring_1.png)
 
+
+
+
+##### その他
+
+- 「xxx cannot be applied to groovy.lang.Closure」 が出たので、対処方法
+
+~~~
+File → Settings     
+        Build,　Execution,　Deployment    
+        Build tools    
+        Gradle    
+        Use local gradle distribution   
+        Gradle home    
+~~~
+        
