@@ -43,6 +43,20 @@ tags: [Java]
 
 ## 開発
 
+
+- [gradle](https://gradle.org/) - Java（JVM）環境におけるビルドシステム
+
 - [mybatis-3](https://github.com/mybatis/mybatis-3) - mybatis-3
 
+#### ログ出力
+
+- [Logback](https://github.com/mybatis/mybatis-3) - Logback
+   compile('org.slf4j:slf4j-api:1.7.21')
+
+compile('org.slf4j:slf4j-api:1.7.21')
+- logback.xml
+
+
+- 画像表示テスト
+![spring構造](img/spring_1.png)
 
