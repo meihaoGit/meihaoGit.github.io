@@ -26,12 +26,9 @@ tags: [vagrant]
 
 - vagrant　バージョン確認  
 
-
 ~~~
 $ C:\Tools\CentOS\centos7>vagrant -v  
-
-Vagrant 1.7.2
-
+  Vagrant 1.7.2
 ~~~
 
     1. ボックスの追加   
@@ -122,9 +119,8 @@ The error output from the last command was:
 ~~~
 $ vagrant plugin install vagrant-vbguest
 
-#### Guest Additions更新
+# Guest Additions更新
 $ vagrant vbguest
-
 ~~~
 
 #### Vagrantツール初期化　完了
@@ -168,7 +164,6 @@ mkdir -pm 700 /home/vagrant/.ssh
 curl -L https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub -o /home/vagrant/.ssh/authorized_keys
 chmod 0600 /home/vagrant/.ssh/authorized_keys
 chown -R vagrant:vagrant /home/vagrant/.ssh
-
 ~~~
 
 
@@ -192,14 +187,12 @@ private_key　を削除
 vagrant ssh-config
 
 ssh-keygen -yf xxxx/vagrant_private_key > public_key
-
 ~~~
 
 
 ## ボックスサイズの最小化
 
 ~~~
-
 $ rm /root/.bash_history
 $ yum clean all
 $ rm -fr /var/log/*
@@ -207,5 +200,4 @@ $ rm -fr /tmp/*
 $ dd if=/dev/zero of=/0 bs=4k
 $ rm /0
 $ history -c
-
 ~~~

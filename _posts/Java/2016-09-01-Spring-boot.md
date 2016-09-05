@@ -26,7 +26,6 @@ tags: [Java]
 ~~~
   html5shiv.js →IE対応
   respond.min.js → IE6～8でCSS3 Media Queries（max-widthとmin-width）を解釈可能
-  
 ~~~
 
 ## システム全体像
@@ -37,21 +36,13 @@ tags: [Java]
 - ・言語：Java SE 8
 - ・運用時はHTTPS通信を行う想定
 - ・フロント: Apache2.2
-
-Spring Boot + Thymeleaf + Tomcat + Gradle
-
-
-
-
+- ・開発環境：IntelliJ IDEA   
+    Spring Boot + Thymeleaf + Tomcat + Gradle   
 
 ---
 
 ## 開発
 
-
-
 - [mybatis-3](https://github.com/mybatis/mybatis-3) - mybatis-3
 
-
-mybatis-spring-boot-starter 
 
