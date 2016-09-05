@@ -58,9 +58,7 @@ compile('org.slf4j:slf4j-api:1.7.21')
 
 
 - 画像表示テスト
-![spring構造](img/spring_1.png)
-
-
+![spring構造](assets/images/img/spring_1.png)
 
 
 ##### その他
