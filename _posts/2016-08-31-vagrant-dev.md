@@ -38,7 +38,6 @@ Vagrant 1.7.2
 
 ~~~
 $ vagrant box add centOS7 centos7.box   
-
 ~~~
 
     2. ボックスのリスト表示  
@@ -55,7 +54,6 @@ $ vagrant init
 centos7.boxフォルダ直下に  
     .vagrant
      Vagrantfile
-
 ~~~
 
     4. Vagrantfileファイルを下記箇所を修正   
@@ -67,16 +65,15 @@ centos7.boxフォルダ直下に
  
 コメントをはず       
 
+>   ※　①　apacheアクセスために使用→TCP 8080番ポートは別で修正できる 
+>   
+>    　　②　SSH接続使用　→必ず修正必要
 ~~~
-
-※　①　apacheアクセスために使用→TCP 8080番ポートは別で修正できる
-　　②　SSH接続使用　→必ず修正必要
 
    5. 立ち上げ
    
 ~~~
 vagrant up       
-
 ~~~
 
 - ※　下記のログを参考
@@ -118,12 +115,17 @@ The error output from the last command was:
 
 /sbin/mount.vboxsf: mounting failed with the error: No such device
 
-vboxadd setup を再実行
-
-ゲストOS上で下記のコマンドを実行する。
-$ sudo /etc/init.d/vboxadd setup
 ~~~
 
+- ※　[No such device] エラー対策
+
+~~~
+$ vagrant plugin install vagrant-vbguest
+
+#### Guest Additions更新
+$ vagrant vbguest
+
+~~~
 
 #### Vagrantツール初期化　完了
 
