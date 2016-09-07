@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Spring-boot勉強"
+title:  "Spring-boot勉強(1)"
 date:   2016-09-01
 category: Java
 tags: [Java]
