@@ -60,7 +60,7 @@ tags: [Java]
 
 - 画像表示テスト
 
-![spring構造](https://github.com/meihaoGit/meihaoGit.github.io/tree/master/assets/images/img/spring_1.png)
+![spring構造](https://raw.githubusercontent.com/meihaoGit/meihaoGit.github.io/master/assets/images/img/spring_1.png)
 
 
 ##### Postgresqlデータベース接続
