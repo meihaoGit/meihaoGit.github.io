@@ -57,14 +57,15 @@ public class CustomerController {
     }
 
 }
-~~~
+~~~  
      3. テンプレートモードをHTMLにする
-~~~
+     
+~~~  
 src/main/resources/application.properties
 spring.thymeleaf.mode=HTML
 
 ~~~
-     4. Thymeleaf Layout Dialec
+     4. Thymeleaf Layout Dialec   
      
 ~~~
 src/main/java/demo/indexController.java
@@ -87,9 +88,10 @@ public class indexController {
     return "index2";
   }
 }
-~~~
-     1.  /src/main/resources/templates/layout.html
-     
+
+~~~   
+     5.  /src/main/resources/templates/layout.html 作成
+      
 ~~~
 <!DOCTYPE html>
 <html
@@ -110,8 +112,9 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
  
 </body>
 </html>
-~~~
-/src/main/resources/templates/index.html
+
+~~~  
+    6.  /src/main/resources/templates/index.html　作成
 
 
 ~~~
@@ -121,11 +124,10 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
     </th:block>
 </div>
 
-~~~
-/src/main/resources/templates/index2.html
+~~~  
+    7. /src/main/resources/templates/index2.html　作成
 
-
-~~~
+~~~   
 <div layout:decorator="layout">
     <th:block layout:fragment="layout-content">
         <p>ページ２</p>
