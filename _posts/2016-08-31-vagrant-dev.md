@@ -170,24 +170,26 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 ## エラー解決
 
 - vagrant package作成後
+   【エラー】解決方法
+   「default: Warning: Authentication failure. Retrying...」
+
+~~~      
+> vagrant ssh
+
+$ ssh-keygen -yf private_key > authorized_keys   
+ 
+$ chmod 600 authorized_keys
 
 ~~~
+* SSHファイル置き換え
 
-【エラー】解決方法
-「default: Warning: Authentication failure. Retrying...」
-※　
-①　
-Typed 'vagrant ssh-config' in the console
-②　
-Made sure to halt by typing 'vagrant halt'
-③　
-C:\vagrant\.vagrant\machines\default\virtualbox
-private_key　を削除
+    - ①　C:\Users\【ユーザ名】\.ssh   
+          authorized_keys → id_rsa
+    - ②　C:\vagrant\.vagrant\machines\default\virtualbox
+          [Centos環境]
+          authorized_keys → /home/vagrant/.ssh
 
-vagrant ssh-config
-
-ssh-keygen -yf xxxx/vagrant_private_key > public_key
-~~~
+- [VagrantでSSH鍵の設定 ](http://qiita.com/Esfahan/items/e5f707dc6d116c2cc751) - VagrantでSSH鍵の設定 
 
 
 ## ボックスサイズの最小化
