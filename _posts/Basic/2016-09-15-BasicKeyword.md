@@ -8,6 +8,10 @@ tags: [Basic]
 
 ## Java 関連
 
+#### Spring Boot
+
+スタンドアロンで production-grade な Spring ベースのアプリケーションを簡単に作ることができる。
+
 
 #### Hibernate
 
@@ -19,6 +23,14 @@ Hibernate を利用することで、Java プログラマの負担が飛躍的�
 そのHibernateについて解説していきます。
 
 - [Hibernate](http://www.techscore.com/tech/Java/Others/Hibernate/index/) - Hibernate説明
+
+
+#### RxJava
+
+RxJavaとはリアクティブプログラミングを行うためのライブラリであるRx(Reactive Extensions)のJVM版とのこと。     
+
+- [RxJava](http://gank.io/post/560e15be2dca930e00da1083) - RxJava説明(中国語)   
+ 
 
 
 #### クロージャ closure
