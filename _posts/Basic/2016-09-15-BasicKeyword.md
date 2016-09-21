@@ -67,3 +67,9 @@ Reactと使用するのが一番相性がいいです。
 
 
 - [Redux入門](http://qiita.com/kiita312/items/49a1f03445b19cf407b7) - Redux入門【ダイジェスト版】10分で理解する
+
+## AWS IoT 関連
+
+- [AWS IoT](http://codezine.jp/article/detail/9530) - AWS IoTとRaspberry PiではじめるIoT超入門
+
+
