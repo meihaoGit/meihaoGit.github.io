@@ -98,9 +98,14 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 
 - [学資保険・こども保険比較の条件](http://www.ignition-ent.com/gakushi-hikaku.html) - こども保険比較の条件        
 
-- [部屋](https://www.livable.co.jp/kounyu/k/detail/CZ1168074/) - 片倉町駅前 
+- [部屋1](https://www.livable.co.jp/kounyu/k/detail/CZ1168074/) - 片倉町駅前 
 
-- [部屋](https://www.livable.co.jp/kounyu/k/detail/CZ1161051/) - 東神奈川駅前 
+- [部屋2](https://www.livable.co.jp/kounyu/k/detail/CZ1161051/) - 東神奈川駅前 
+
+- [部屋3](https://www.livable.co.jp/kounyu/k/detail/CZ1166B17/) - 団地の近く 
+
+
+
 
 
 
