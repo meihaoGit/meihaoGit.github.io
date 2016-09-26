@@ -94,9 +94,9 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 
 - [夢みるこどもの学資保険](http://www.ignition-ent.com/gakushi/aflac-gakushi.html) - 夢みるこどもの学資保険  
 
-- [学資保険の教科書] (http://hokensc.jp/gakushi/aflac.html) - 学資保険の教科書
+- [学資保険の教科書] (http://hokensc.jp/gakushi/aflac.html) - 学資保険の教科書          
 
-- [学資保険・こども保険比較の条件] (http://www.ignition-ent.com/gakushi-hikaku.html) - こども保険比較の条件
+- [学資保険・こども保険比較の条件] (http://www.ignition-ent.com/gakushi-hikaku.html) - こども保険比較の条件        
 
 
 
