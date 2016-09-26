@@ -72,4 +72,14 @@ Reactと使用するのが一番相性がいいです。
 
 - [AWS IoT](http://codezine.jp/article/detail/9530) - AWS IoTとRaspberry PiではじめるIoT超入門
 
+## 機械学習
+
+#### TensorFlow
+
+TensorFlow(テンソルフロー)    
+Googleの機械学習/ディープラーニング/多層ニューラルネットワークライブラリです。    
+データフローグラフを使用したライブラリで、複雑なネットワークを分かりやすく記述できます。   
+
+
+- [TensorFlow](http://www.ossnews.jp/oss_info/TensorFlow) - TensorFlow(テンソルフロー)  
 
