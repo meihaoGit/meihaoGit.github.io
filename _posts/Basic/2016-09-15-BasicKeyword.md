@@ -83,3 +83,11 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 
 - [TensorFlow](http://www.ossnews.jp/oss_info/TensorFlow) - TensorFlow(テンソルフロー)  
 
+
+## 学資保険
+
+
+学資保険（がくし・ほけん）とは、    
+お子さまの入学時や進学時に祝金や満期保険金（まんき・ほけんきん）を受け取ることができる教育資金を準備するための貯蓄型の保険です
+
+- [学資保険](http://hoken.kakaku.com/insurance/gea/) - 学資保険（がくし・ほけん)  
