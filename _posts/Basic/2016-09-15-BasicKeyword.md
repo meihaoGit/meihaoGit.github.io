@@ -114,3 +114,4 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 ) - 家を買うときに頭金 
 
 
+- [エラー開発方法](https://stackoverflow.com/questions/9499563/no-repository-found-error-in-installing-adt-in-eclipse-indigo) - eclipse

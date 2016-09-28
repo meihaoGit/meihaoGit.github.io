@@ -203,3 +203,8 @@ $ dd if=/dev/zero of=/0 bs=4k
 $ rm /0
 $ history -c
 ~~~
+
+## Vagrant・CoreOS・Docker
+
+- [Vagrant・CoreOS・Docker](http://qiita.com/y_hokkey/items/3dd0d8f20f9daadbbf0b) - インフラ素人が自宅サーバ
+
