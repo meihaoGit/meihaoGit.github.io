@@ -6,6 +6,32 @@ category: Git
 tags: [Git]
 ---
 
+## Git インストール方法
+
+- Centos7    
+
+~~~
+$ yum -y install wget gcc   
+
+$ yum -y install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-ExtUtils-MakeMake   
+
+$ yum -y git   
+
+~~~
+
+- ソースからアップデート方法   
+
+- [git](https://git-scm.com/downloads) - git  
+
+~~~
+$ git clone https://github.com/git/git
+
+$ cd git
+$ make prefix=/usr/local all
+$ make prefix=/usr/local install
+
+~~~
+
 ## Git 常に使用命令   
 
 ##### Git Command 
