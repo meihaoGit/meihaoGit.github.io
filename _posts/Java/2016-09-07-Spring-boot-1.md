@@ -116,7 +116,6 @@ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
 ~~~  
     6.  /src/main/resources/templates/index.html　作成
 
-
 ~~~
 <div layout:decorator="layout">
     <th:block layout:fragment="layout-content">
