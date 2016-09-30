@@ -22,13 +22,13 @@ Apache solrはオープンソースの全文検索エンジンです。
     
 ## Solrのインストール
 
-- [Solr](http://lucene.apache.org/solr/) - Apache SolrのSample 
+- [Solr](http://lucene.apache.org/solr/) - Apache Solr 
 
 - [Solr download ](http://www.apache.org/dyn/closer.lua/lucene/solr/6.2.1) - Apache Solr download
 
-## Solr コマンド
-
-   1.  Solrの起動
+## Solr コマンド   
+   
+    1.  Solrの起動
 
 ~~~   
 
@@ -55,14 +55,15 @@ $ solr create -c collection1
          core/collectionを指定してサンプルドキュメントを登録   
 
 ~~~
-$ java -Dc=collection1 -jar post.jar *.xml
-
+$ java -Dc=collection1 -jar post.jar *.xml       
 ~~~
 
 ###### Solrの管理画面にアクセスして確認
 
-   - [default設定] http://localhost:8983/solr/ 
+   - [default設定](http://localhost:8983/solr/)  - http://localhost
 
 ## Apache SolrのSampleプログラム実行
+
+参考サイト：
 
 - [Apache Solr](http://qiita.com/Siro/items/54dc2ea1860e07792c40) - Apache SolrのSample 
