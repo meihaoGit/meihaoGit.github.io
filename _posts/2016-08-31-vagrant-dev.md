@@ -208,3 +208,6 @@ $ history -c
 
 - [Vagrant・CoreOS・Docker](http://qiita.com/y_hokkey/items/3dd0d8f20f9daadbbf0b) - インフラ素人が自宅サーバ
 
+
+
+passenger
