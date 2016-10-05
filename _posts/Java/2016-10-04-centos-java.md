@@ -8,14 +8,14 @@ tags: [Java]
 
 ## JAVA ダウンロードとインストール
 
-    - 1. ダウンロード
+    1. ダウンロード
 
 ~~~
 $ curl -LO -H "Cookie: oraclelicense=accept-securebackup-cookie" \
 "http://download.oracle.com/otn-pub/java/jdk/8u102-b14/jdk-8u102-linux-x64.rpm"    
 
 ~~~
-    - 2. インストール
+    2. インストール
 
 ~~~
 $ sudo yum localinstall jdk-8u102-linux-x64.rpm 
@@ -23,9 +23,7 @@ $ sudo yum localinstall jdk-8u102-linux-x64.rpm
 $ sudo alternatives --config java
 
 ~~~
-    - 3. 環境変数
-
-vi /etc/profile
+    3. 環境変数
 
 ~~~
 $ vi /etc/profile
@@ -34,11 +32,12 @@ export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=.:$JAVA_HOME/jre/lib:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 
 $ source /etc/profile
+
 ~~~
 
 ## apache-tomcat-9 ダウンロード
 
-    - 1. Apacheのインストール
+    1. Apacheのインストール
 
 ~~~
 # yum -y install httpd
@@ -48,14 +47,14 @@ $ source /etc/profile
 
 ~~~
 
-    - 2. tomcatのインストール
+    2. tomcatのインストール
 
 ~~~   
 # useradd -s /sbin/nologin tomcat
 
 ~~~      
 
-    - [apache-tomcat](http://tomcat.apache.org/download-90.cgi) - apache-tomcat-9
+- [apache-tomcat](http://tomcat.apache.org/download-90.cgi) - apache-tomcat-9
 
 ~~~  
 
@@ -67,8 +66,9 @@ $ source /etc/profile
 # ln -s /usr/lib/apache-tomcat-7.0.62/ /usr/lib/tomcat
 # chown -R tomcat:tomcat /opt/apache-tomcat-9.0.0.M10
 
-# vi /usr/lib/systemd/system/tomcat9.service
 # 新規作成	
+# vi /usr/lib/systemd/system/tomcat9.service
+
  [Unit]
 Description=Apache Tomcat 9
 After=network.target
@@ -89,7 +89,7 @@ WantedBy=multi-user.target
 
 ~~~  
 
-    - 3. ajpモジュールによる連携
+    3. ajpモジュールによる連携
 
     /etc/httpd/conf.d/proxy-ajp.confファイルを追加
 
