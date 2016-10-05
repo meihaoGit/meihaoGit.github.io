@@ -40,8 +40,9 @@ $ docker pull postgres
 $ docker run -d --name=postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword postgres 
     
 ~~~   
-## docker コマンド
- 
+
+## docker コマンド    
+
     1. コンテナ 操作
   
 ~~~ 
