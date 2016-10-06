@@ -35,48 +35,48 @@ $ source /etc/profile
 
 ~~~
 
-## apache-tomcat-9 ダウンロード
+## apache-tomcat ダウンロード
 
     1. Apacheのインストール
 
 ~~~
-# yum -y install httpd
+$ yum -y install httpd
 
-# systemctl enable httpd.service
-# systemctl start httpd.service
+$ systemctl enable httpd.service
+$ systemctl start httpd.service
 
 ~~~
 
     2. tomcatのインストール
 
 ~~~   
-# useradd -s /sbin/nologin tomcat
+
+$ useradd -s /sbin/nologin tomcat
 
 ~~~      
 
 - [apache-tomcat](http://tomcat.apache.org/download-90.cgi) - apache-tomcat-9
 
 ~~~  
-
-# cd ~/download
-# curl -O "http://ftp.tsukuba.wide.ad.jp/software/apache/" \
+$ cd ~/download
+$ curl -O "http://ftp.tsukuba.wide.ad.jp/software/apache/" \
           "tomcat/tomcat-9/v9.0.0.M10/bin/apache-tomcat-9.0.0.M10.tar.gz"  
-# tar -xzvf ~/apache-tomcat-9.0.0.M10.tar.gz
-# mv ~/apache-tomcat-9.0.0.M10.tar.gz /opt
-# ln -s /usr/lib/apache-tomcat-7.0.62/ /usr/lib/tomcat
-# chown -R tomcat:tomcat /opt/apache-tomcat-9.0.0.M10
+$ tar -xzvf ~/apache-tomcat-9.0.0.M10.tar.gz
+$ mv ~/apache-tomcat-9.0.0.M10.tar.gz /opt
+$ ln -s /usr/lib/apache-tomcat-7.0.62/ /usr/lib/tomcat
+$ chown -R tomcat:tomcat /opt/apache-tomcat-9.0.0.M10
 
 # 新規作成	
-# vi /usr/lib/systemd/system/tomcat9.service
+$ vi /usr/lib/systemd/system/tomcat.service
 
  [Unit]
-Description=Apache Tomcat 9
+Description=Apache Tomcat
 After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/opt/tomcat9/bin/startup.sh
-ExecStop=/opt/tomcat9/bin/shutdown.sh
+ExecStart=/opt/tomcat/bin/startup.sh
+ExecStop=/opt/tomcat/bin/shutdown.sh
 RemainAfterExit=yes
 User=tomcat
 Group=tomcat
@@ -84,24 +84,24 @@ Group=tomcat
 [Install]
 WantedBy=multi-user.target
 
-# systemctl start tomcat8 
-# systemctl enable tomcat8 
+$ systemctl start tomcat
+$ systemctl enable tomcat
 
 ~~~  
 
     3. ajpモジュールによる連携
 
-    /etc/httpd/conf.d/proxy-ajp.confファイルを追加
+      /etc/httpd/conf.d/proxy-ajp.confファイルを追加
 
 下記の内容を記載
 
 ~~~    
-
 <Location /docs/>
   ProxyPass ajp://127.0.0.1:8009/docs/
 </Location>
 
 ~~~    
+
 ## 備忘
 
 ~~~  
