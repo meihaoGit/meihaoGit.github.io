@@ -70,3 +70,27 @@ $ docker images
 docker rmi <IMAGE ID>
 
 ~~~    
+
+    3. docker基本命令
+    
+    
+| コンテナを立ち上げ | docker run オプション --name コンテナ名　イメージ名  | 
+| コンテナ一覧を表示 | docker ps -a                                         | 
+| イメージ一覧を表示 | docker images                                        | 
+| コンテナを起動 | docker start コンテナ名                                  | 
+| コンテナを停止 | docker stop コンテナ名                                   | 
+| コンテナを削除 | docker rm コンテナ名                                     | 
+| イメージを削除 | docker rmi イメージ名                                    | 
+
+
+|-d | コンテナをバックグラウンドで起動                                            | 
+|-p | 「Mac側ポート番号:コンテナ側ポート番号」のようにポートマッピングを指定      | 
+|-v | 「Mac側ディレクトリ:コンテナ側ディレクトリ」のように共有ディレクトリを指定  | 
+|-i | STDINを常に開く                                                             | 
+|-t | ttyを割り当てる                                                             | 
+
+
+## 参考
+
+- [Docker Ruby on Rails](http://uxmilk.jp/33604) - Docker Ruby on Rails
+
