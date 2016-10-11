@@ -13,6 +13,12 @@ tags: [Basic]
 スタンドアロンで production-grade な Spring ベースのアプリケーションを簡単に作ることができる。
 
 
+#### JavaServer Faces
+
+JavaServer Faces (JSF) は、JavaベースのWebアプリケーションフレームワークである。    
+Javaの拡張機能セットであるJava Platform, Enterprise Edition (Java EE) の仕様の一つに採用されている。   
+
+
 #### Hibernate
 
 Hibernate は Java で O/R マッピングを実現するためのツールです。    
