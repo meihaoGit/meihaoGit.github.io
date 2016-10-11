@@ -117,13 +117,16 @@ $ git gc --auto
 
 ~~~
 $ du -sh .git/objects
-  6.4M    .git/objects
+  6.4M    .git/objects   
+  
 ~~~
 
+- * ※  Git proxyの設定    
 
+~~~       
 $ git config --global http.proxy http://proxy.example.com:8080
 $ git config --global https.proxy http://proxy.example.com:8080
-
+~~~       
 
 ## Git SSH key生成
 
@@ -131,10 +134,10 @@ $ git config --global https.proxy http://proxy.example.com:8080
 
 - [SSH key](https://help.github.com/articles/generating-an-ssh-key/) - SSH key
 
-~~~
-
+~~~     
 $ ssh-keygen
 
 $ cat ~/.ssh/id_rsa.pub
 
-~~
+~~~     
+

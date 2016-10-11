@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Rails Wicked PDF "
+date:   2016-07-29
+category: Rails
+tags: [Rails]
+---
+
 ### Rails で Wicked PDF 使って PDF を出力
 
 #### 作成環境と前提
