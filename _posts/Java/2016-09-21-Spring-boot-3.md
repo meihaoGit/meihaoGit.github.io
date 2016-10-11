@@ -18,6 +18,8 @@ tags: [Java]
 
 - spring-boot-with-activiti 実装
 
+- [Activiti User Guide](http://activiti.org/userguide/index.html) - Activiti User Guide 
+
 - [spring-boot-with-activiti-example](https://github.com/jbarrez/spring-boot-with-activiti-example) - spring-boot-with-activiti-example
 
 - [alfresco-activiti](https://docs.alfresco.com/activiti/blog/posts/201603-demos/) - alfresco-activiti-example
