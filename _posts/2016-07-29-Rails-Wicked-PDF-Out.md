@@ -6,22 +6,25 @@ category: Rails
 tags: [Rails]
 ---
 
-### Rails で Wicked PDF 使って PDF を出力
+- * Rails で Wicked PDF 使って PDF を出力
 
-#### 作成環境と前提
+## 作成環境と前提
+
 Rails 4.2.6      
 Ruby 2.3.1    
 
+## 前期準備
 
-#### 前期準備
 ~~~
 $ yum install libXrender libXext fontconfig
 ~~~
 
-- PDF日本語フォント（linuxのみ）  
+- PDF日本語フォント（linux環境のみ）  
+
 ~~~
-$ yum install -y ipa-gothic-fonts
-$ yum install -y ipa-mincho-fonts
+$ yum install -y ipa-gothic-fonts  
+$ yum install -y ipa-mincho-fonts  
+
 ~~~
 
 - Gemfile   
@@ -32,7 +35,7 @@ gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 ~~~
 
-#### PJ作成   
+## PJ作成   
 - customerマスタ管理   
 
 ~~~
@@ -42,7 +45,7 @@ $ rails g wicked_pdf
 create  config/initializers/wicked_pdf.rb
 ~~~
 
-これでconfig/initializer/wicked_pdf.rbが生成されます。
+config/initializer/wicked_pdf.rbが生成   
 
 ~~~
 WickedPdf.config = {
@@ -52,7 +55,7 @@ WickedPdf.config = {
 }
 ~~~
 
-#### Controllerの編集  
+## Controllerの編集  
 
 続いてPDF出力をしたいControllerを修正します。  
 
@@ -85,7 +88,7 @@ WickedPdf.config = {
   end
 ~~~
 
-#### PDF表示の編集template作成
+## PDF表示の編集template作成
 
 ~~~
 show.html.erb→show.pdf.erb
