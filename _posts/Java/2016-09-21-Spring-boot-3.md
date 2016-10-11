@@ -19,3 +19,5 @@ tags: [Java]
 - spring-boot-with-activiti 実装
 
 - [spring-boot-with-activiti-example](https://github.com/jbarrez/spring-boot-with-activiti-example) - spring-boot-with-activiti-example
+
+- [alfresco-activiti](https://docs.alfresco.com/activiti/blog/posts/201603-demos/) - alfresco-activiti-example
