@@ -36,6 +36,9 @@ tags: [Java]
 
 - [Micro Services testing](http://martinfowler.com/articles/microservice-testing/) - Micro Services testing
 
+- [マイクロサービスのフレームワーク](http://qiita.com/hat22/items/3c9ad74d89166b7a72db) - マイクロサービス
+
+- [React.js and Spring Data REST](https://spring.io/guides/tutorials/react-and-spring-data-rest/) - React.js and Spring Data REST
 
 ##　 RxJavaとは
 
