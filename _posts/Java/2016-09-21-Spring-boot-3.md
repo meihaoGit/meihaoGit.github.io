@@ -23,3 +23,41 @@ tags: [Java]
 - [spring-boot-with-activiti-example](https://github.com/jbarrez/spring-boot-with-activiti-example) - spring-boot-with-activiti-example
 
 - [alfresco-activiti](https://docs.alfresco.com/activiti/blog/posts/201603-demos/) - alfresco-activiti-example
+
+
+## Spring Boot関連資料
+
+- [Spring-boot勉強(中国語)](http://www.infoq.com/cn/articles/microframeworks1-spring-boot/) - Spring-boot勉強(中国語)
+
+
+##　Micro Services 関連資料
+
+- [Micro Services](http://martinfowler.com/articles/microservices.html) - Micro Services
+
+- [Micro Services testing](http://martinfowler.com/articles/microservice-testing/) - Micro Services testing
+
+
+##　 RxJavaとは
+
+- [RxJavaの概要](http://codezine.jp/article/detail/9570) - RxJavaの概要
+
+####  特性：
+- 大きなサービスを実行させるにあたって、マイクロサービスでは次のような小さいサービスを開発して、Web APIを通じて、各サービスを呼び出し連携させます。
+
+~~~   
+認証サービス（IDやパスワード）
+ロジック：データのフィルタリングサービス（サイズや色）
+ロジック：レコメンデーションサービス（おすすめ商品の通知）
+アクセス許可：在庫管理システム連携サービス
+データ：販売実績の追加、配送ステータス管理サービス
+
+~~~   
+- こうすることによって、マイクロサービスでは、次のような利点が得られます。
+
+~~~
+開発チームがサービスごとに分かれて、得意な言語を利用して各サービスの開発を進めることができる
+変更をかけたいときは、システム全体ではなく、その小さなサービスごとに変更をかけられる
+小さなサービスで開発単位を進めるため、ビルドやテストの期間が短くなり開発効率が上がる
+モノリシックなシステムだと何か障害が起きたときに、どこがおかしいのかルート構造をたどるのに時間がかかるが、原因の突き止めが比較的容易
+
+~~~
