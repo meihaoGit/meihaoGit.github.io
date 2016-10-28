@@ -124,3 +124,8 @@ $ node server.js
 
 
 - [REST (Representational State Transfer)](https://www.ibm.com/developerworks/jp/webservices/library/ws-restful/) - RESTful Web サービスの基本
+
+
+- [マイクロサービスアーキテクチャ](http://qiita.com/kawasima/items/356d54e253c54d730fb0) - マイクロサービス
+
+
