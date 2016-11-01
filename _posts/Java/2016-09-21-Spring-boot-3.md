@@ -40,6 +40,11 @@ tags: [Java]
 
 - [React.js and Spring Data REST](https://spring.io/guides/tutorials/react-and-spring-data-rest/) - React.js and Spring Data REST
 
+- [マイクロサービスアーキテクチャ](http://tsuyoshi-nakamura.hatenablog.com/entry/2016/06/15/105639) - マイクロサービス
+
+- [Spring Bootで作ったRESTful API](http://qiita.com/gates1de/items/5ac83f48212580e6c7fd) - Spring Bootで作ったRESTful API
+
+
 ##　 RxJavaとは
 
 - [RxJavaの概要](http://codezine.jp/article/detail/9570) - RxJavaの概要
