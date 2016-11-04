@@ -44,6 +44,10 @@ tags: [Java]
 
 - [Spring Bootで作ったRESTful API](http://qiita.com/gates1de/items/5ac83f48212580e6c7fd) - Spring Bootで作ったRESTful API
 
+- [Microservice紹介](http://www.cnblogs.com/loveis715/p/4644266.html) - Microservice紹介（中国語）
+
+
+
 
 ##　 RxJavaとは
 

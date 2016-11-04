@@ -128,4 +128,7 @@ $ node server.js
 
 - [マイクロサービスアーキテクチャ](http://qiita.com/kawasima/items/356d54e253c54d730fb0) - マイクロサービス
 
+- [REST簡単紹介](http://www.cnblogs.com/loveis715/p/4669091.html#3505324) - [REST簡単紹介（中国語）
+
+- [microservices](http://microservices.io/patterns/monolithic.html) - microservices English
 
