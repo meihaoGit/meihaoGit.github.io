@@ -27,6 +27,11 @@ RESTfulとは，RESTの設計思想に則ったモノというニュアンスで
     
 *  一般的なMEANスタックと呼ばれるものと殆ど差異が無いと思います．
 
+【原則1】アドレス可能な「リソース」
+【原則2】統一インタフェース
+【原則3】表現指向とハイパーメディア
+【原則4】ステートレスな通信
+
 > M：MongoDB（ドキュメント指向データベース）    <br>
 > E：Express（Node.js上で動作するMVCフレームワーク）         <br>
 > A：AngularJS（フロントエンドのJavaScript用MVWフレームワーク）         <br>
@@ -54,7 +59,8 @@ jsonAPI
 ├── app
 │   └── models
 │       └──user.js
-└── node_module
+└── node_module    
+
 ~~~
 
 - package.jsonの作成
@@ -121,9 +127,26 @@ console.log('listen on port ' + port);
 $ node server.js
 ~~~
 
+Jersey Client API : Java でWeb API Client を作成する方法
 
+- [Jersey Client API : Java でWeb API Client を作成する方法](http://www.techscore.com/blog/2016/09/20/jersey-client-api/) - Java でWeb API Client を作成する方法
+
+- [jersey](https://jersey.java.net/) - jersey java
 
 - [REST (Representational State Transfer)](https://www.ibm.com/developerworks/jp/webservices/library/ws-restful/) - RESTful Web サービスの基本
+
+- [RESTの基礎知識](http://www.atmarkit.co.jp/ait/articles/1604/18/news020.html) - RESTful Web JAX-RS
+
+    JAX-RSは、RESTに準拠したWebサービスを作るためのJava EEの仕様
+    JAX-RS（Java API for RESTful Web Services）
+    
+|従業員の操作 | メソッド | URI                               | レスポンスの表現形式   | 
+|:------------|:--------:|:---------------------------------:|-----------------------:| 
+|検索         | GET      | /crudsample/employees?name={name} | JSON、XML              | 
+|取得         | GET      | /crudsample/employees/{ID}        | JSON、XML              | 
+|登録         | POST     | /crudsample/employees             | JSON、XML              | 
+|更新         | PUT      | /crudsample/employees/{ID}        | なし                   | 
+|削除         | DELETE   | /crudsample/employees/{ID}        | なし                   | 
 
 
 - [マイクロサービスアーキテクチャ](http://qiita.com/kawasima/items/356d54e253c54d730fb0) - マイクロサービス
@@ -131,4 +154,6 @@ $ node server.js
 - [REST簡単紹介](http://www.cnblogs.com/loveis715/p/4669091.html#3505324) - [REST簡単紹介（中国語）
 
 - [microservices](http://microservices.io/patterns/monolithic.html) - microservices English
+
+- [RESTEasy](https://github.com/resteasy) - jboss RESTEasy
 
