@@ -47,8 +47,6 @@ tags: [Java]
 - [Microservice紹介](http://www.cnblogs.com/loveis715/p/4644266.html) - Microservice紹介（中国語）
 
 
-
-
 ##　 RxJavaとは
 
 - [RxJavaの概要](http://codezine.jp/article/detail/9570) - RxJavaの概要

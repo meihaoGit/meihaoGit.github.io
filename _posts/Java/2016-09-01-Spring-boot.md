@@ -302,6 +302,7 @@ curl http://localhost:8080/user/selectuser
 
 - [IntelliJ IDEA](http://qiita.com/opengl-8080/items/108102d692b49f804dbd) - IntelliJ IDEA 入門
 
+- [IntelliJ IDEA](http://ksby.hatenablog.com/entry/2016/11/27/180337) - IntelliJ IDEA 2016.3 の新機能を試してみる
 
 
 #### 備忘
