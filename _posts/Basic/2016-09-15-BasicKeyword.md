@@ -12,6 +12,8 @@ tags: [Basic]
 
 スタンドアロンで production-grade な Spring ベースのアプリケーションを簡単に作ることができる。
 
+Aspect Oriented Programming(AOP): 面向切面编程 アスペクト指向プログラミング
+
 
 #### JavaServer Faces
 
