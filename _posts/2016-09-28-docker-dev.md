@@ -89,8 +89,25 @@ docker rmi <IMAGE ID>
 |-i | STDINを常に開く                                                             | 
 |-t | ttyを割り当てる                                                             | 
 
+    4. docker SSH接続できる起動   
+    
+docker run -d -p 22 <username>/ssh:centos7
+docker run -d -p 22 root/ssh:centos7
 
 ## 参考
 
 - [Docker Ruby on Rails](http://uxmilk.jp/33604) - Docker Ruby on Rails
 
+
+## win10 docker proxyの設定    
+
+~~~
+$docker-machine ssh
+
+docker@boot2docker:~$ sudo vi /var/lib/boot2docker/profile 
+
+     export HTTP_PROXY=http://your.proxy.name:8080
+     export HTTPS_PROXY=http://your.proxy.name:8080
+
+docker@boot2docker:~$ sudo /etc/init.d/docker restart    
+~~~
