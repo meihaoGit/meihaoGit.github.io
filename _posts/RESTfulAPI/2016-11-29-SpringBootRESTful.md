@@ -17,3 +17,5 @@ tags: [SpringBoot]
 
 - [The API Gateway & Microservice日本語説明](http://qiita.com/awakia/items/235cf6fd299634391ce6) - The API Gateway & Microservice
 
+- [TERASOLUNA（テラソルナ）](http://terasolunaorg.github.io/guideline/5.2.0.RELEASE/ja/ArchitectureInDetail/WebServiceDetail/REST.html#restoverviewaboutrestfulwebservice) - TERASOLUNA（テラソルナ）RESTful service
+
