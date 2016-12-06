@@ -19,3 +19,4 @@ tags: [SpringBoot]
 
 - [TERASOLUNA（テラソルナ）](http://terasolunaorg.github.io/guideline/5.2.0.RELEASE/ja/ArchitectureInDetail/WebServiceDetail/REST.html#restoverviewaboutrestfulwebservice) - TERASOLUNA（テラソルナ）RESTful service
 
+- [5分で理解する React.js](http://qiita.com/tomzoh/items/7fabe7cb57dd96425867) - 5分で理解する React.js
