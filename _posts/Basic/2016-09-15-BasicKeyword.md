@@ -76,6 +76,14 @@ Reactと使用するのが一番相性がいいです。
 
 - [Redux入門](http://qiita.com/kiita312/items/49a1f03445b19cf407b7) - Redux入門【ダイジェスト版】10分で理解する
 
+## HTML 関連
+
+#### Jekyll
+Jekyllは、ブログのような静的サイトを構築するためのRuby製ファイルジェネレータです
+
+#### Jekyll
+Jetty は、100%Javaで開発されたJava Servletコンテナ／Webサーバである
+
 ## AWS IoT 関連
 
 - [AWS IoT](http://codezine.jp/article/detail/9530) - AWS IoTとRaspberry PiではじめるIoT超入門
