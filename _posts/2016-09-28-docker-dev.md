@@ -98,6 +98,8 @@ docker run -d -p 22 root/ssh:centos7
 
 - [Docker Ruby on Rails](http://uxmilk.jp/33604) - Docker Ruby on Rails
 
+- [Docker 日本語化](http://docs.docker.jp/) - Docker 日本語化
+
 
 ## win10 docker proxyの設定    
 
@@ -111,3 +113,5 @@ docker@boot2docker:~$ sudo vi /var/lib/boot2docker/profile
 
 docker@boot2docker:~$ sudo /etc/init.d/docker restart    
 ~~~
+
+
