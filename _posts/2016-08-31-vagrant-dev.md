@@ -28,7 +28,7 @@ tags: [vagrant]
 
 ~~~
 $ C:\Tools\CentOS\centos7>vagrant -v  
-  Vagrant 1.7.2
+  Vagrant 1.8.7
 ~~~
 
     1. ボックスの追加   
@@ -166,6 +166,12 @@ chmod 0600 /home/vagrant/.ssh/authorized_keys
 chown -R vagrant:vagrant /home/vagrant/.ssh
 ~~~
 
+## ボックスをエクスポート
+
+~~~
+$ vagrant package default --output [box name].box  
+
+~~~
 
 ## エラー解決
 
@@ -184,7 +190,8 @@ $ chmod 600 authorized_keys
 * SSHファイル置き換え
 
     - ①　C:\Users\【ユーザ名】\.ssh   
-          authorized_keys → id_rsa
+          authorized_keys → id_rsa  
+          
     - ②　C:\vagrant\.vagrant\machines\default\virtualbox
           [Centos環境]
           authorized_keys → /home/vagrant/.ssh
