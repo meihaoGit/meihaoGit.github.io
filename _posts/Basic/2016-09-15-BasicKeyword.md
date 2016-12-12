@@ -142,4 +142,7 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 
 - [日本旅行](https://www.tripadvisor.jp/) - 日本旅行サイト
 
+## 日本語勉強
+
+- [ビジネス敬語](https://book.mynavi.jp/biz/blog/) - ビジネス敬語
 
