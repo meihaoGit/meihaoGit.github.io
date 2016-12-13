@@ -125,6 +125,9 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 - [家を買うときに頭金](http://www.iesagashi.info/entry/2015/07/31/%E5%AE%B6%E3%82%92%E8%B2%B7%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AB%E9%A0%AD%E9%87%91%E3%81%AF%E3%81%84%E3%81%8F%E3%82%89%E5%BF%85%E8%A6%81%E3%81%8B%E3%80%81%E8%A8%88%E7%AE%97%E3%81%97%E3%81%A6%E3%81%BF
 ) - 家を買うときに頭金 
 
+- [UR](http://www.ur-net.go.jp/akiya/kanagawa/40_3020.html) - UR元住吉
+
+
 
 - [エラー開発方法](https://stackoverflow.com/questions/9499563/no-repository-found-error-in-installing-adt-in-eclipse-indigo) - eclipse
 
