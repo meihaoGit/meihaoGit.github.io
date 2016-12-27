@@ -114,9 +114,6 @@ Googleの機械学習/ディープラーニング/多層ニューラルネット
 
 - [学資保険・こども保険比較の条件](http://www.ignition-ent.com/gakushi-hikaku.html) - こども保険比較の条件        
 
-- [部屋3](https://www.livable.co.jp/kounyu/k/detail/CZ1166B17/) - 団地の近く 
-
-
 ## 住宅ローン
 
 
