@@ -10,6 +10,10 @@ tags: [plan]
 
 - 【抱負】ほうふ    
    New Year’s resolution
+   
+- 【一朝一夕】
+   いっちょういっせき    
+   In a short period of time    
 
 
 ## キモチ
