@@ -8,7 +8,7 @@ tags: [plan]
 
 ## 頭を整理
 
-- 【抱負】ほうふ
+- 【抱負】ほうふ    
    New Year’s resolution
 
 
