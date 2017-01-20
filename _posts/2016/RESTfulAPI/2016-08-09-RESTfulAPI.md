@@ -157,3 +157,5 @@ Jersey Client API : Java でWeb API Client を作成する方法
 
 - [RESTEasy](https://github.com/resteasy) - jboss RESTEasy
 
+- [綺麗なAPI速習会](http://qiita.com/shimastripe/items/e9b0e1f8f8d77b89373f) - 綺麗なAPI速習会
+
