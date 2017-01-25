@@ -44,10 +44,6 @@ DocumentRoot "/var/www/blog.rnita.me"       # WordPress のディレクトリ
     AllowOverride All
 </Directory>
 
-
-
-
-
 $ chmod 711 /home/phpuser/
 
 ~~~
@@ -163,6 +159,8 @@ $ su
 # chown -R phpuser:phpuser wordpress
 
 # chown apache:apache /var/www/html/wordpress
+
+$ chmod -R 777 wp-content
 
 ~~~
 
