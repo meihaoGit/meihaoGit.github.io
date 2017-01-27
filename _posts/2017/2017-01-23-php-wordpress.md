@@ -168,6 +168,18 @@ $ chmod -R 777 wp-content
 
 - [WordPress の使い方](http://cms.thingslabo.com/manual/wordpress/) - WordPress の使い方
 
+
+## nginxのインストール
+
+~~~   
+$ sudo rpm -ivh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+$ sudo yum -y update nginx-release-centos
+$ sudo yum -y --enablerepo=nginx install nginx
+$ nginx -v
+nginx version: nginx/1.8.1
+
+~~~   
+
 ## 備忘
 
 - centos7のapacheの設定
