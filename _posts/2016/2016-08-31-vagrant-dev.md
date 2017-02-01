@@ -215,3 +215,6 @@ $ history -c
 
 - [Vagrant・CoreOS・Docker](http://qiita.com/y_hokkey/items/3dd0d8f20f9daadbbf0b) - インフラ素人が自宅サーバ
 
+## 裏技（うらわざ）
+
+- [vagrantの容量を増やす方法](http://qiita.com/koitaro/items/c8bf8eb1e67e78890a5c) - vagrantの容量を増やす方法
