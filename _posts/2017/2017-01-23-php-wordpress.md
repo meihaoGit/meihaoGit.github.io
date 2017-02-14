@@ -212,3 +212,5 @@ $ cd /var/www/html/
 $ echo '<?php echo phpinfo(); ?>' > index.php
 
 ~~~ 
+- [綺麗なフォントベース](http://a1-style.net/wordpress/create-siteicon-favicon/) - 綺麗なフォントベース
+
