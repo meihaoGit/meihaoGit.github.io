@@ -214,3 +214,7 @@ $ echo '<?php echo phpinfo(); ?>' > index.php
 ~~~ 
 - [綺麗なフォントベース](http://a1-style.net/wordpress/create-siteicon-favicon/) - 綺麗なフォントベース
 
+
+## TODO
+
+- [docker-compose WordPress](https://tech.recruit-mp.co.jp/infrastructure/post-11266/) - docker-compose WordPress
