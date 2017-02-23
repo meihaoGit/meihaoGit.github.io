@@ -19,6 +19,8 @@ tags: [WordPress]
 
 - [SSH接続ツール](https://osdn.jp/projects/ttssh2/releases/) - windowsOS必要
 
+- [Instant WordPress](https://nelog.jp/instant-wordpress) - Instant WordPress
+
 
 ## 参考サイト
 
