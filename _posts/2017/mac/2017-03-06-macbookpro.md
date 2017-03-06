@@ -10,6 +10,8 @@ tags: [mac]
 
 - [MacBook Pro](http://www.apple.com/jp/shop/buy-mac/macbook-pro) - MacBook Pro
 
+- [iFixit分解](http://gigazine.net/news/20161117-macbook-pro-touch-bar-teardown/) - iFixit分解 MacBook Pro 2016 
+
 * 購入日 2017/03/04
 
 *  MacBook Pro 2016
