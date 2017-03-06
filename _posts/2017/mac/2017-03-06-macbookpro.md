@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "MacBookPro 2016 関連サイト"
+date:   2017-03-06
+category: mac
+tags: [mac]
+---
+
+## 13インチMacBook Pro
+
+- [MacBook Pro](http://www.apple.com/jp/shop/buy-mac/macbook-pro) - MacBook Pro
+
+* 購入日 2017/03/04
+
+*  MacBook Pro 2016
+*    13インチMacBook Pro - スペースグレイ
+*    CPU        3.3GHz     Dual-core Intel Core i7
+*    メモリ     16GB       2133MHz LPDDR3 SDRAM
+*    GPU        Intel Iris Graphics 550
+*    SSD        256GB PCIe-based SSD
+
