@@ -12,12 +12,12 @@ tags: [mac]
 
 - [iFixit分解](http://gigazine.net/news/20161117-macbook-pro-touch-bar-teardown/) - iFixit分解 MacBook Pro 2016 
 
-* 購入日 2017/03/04
+    * 購入日 2017/03/04
 
-*  MacBook Pro 2016
-*    13インチMacBook Pro - スペースグレイ
-*    CPU        3.3GHz     Dual-core Intel Core i7
-*    メモリ     16GB       2133MHz LPDDR3 SDRAM
-*    GPU        Intel Iris Graphics 550
-*    SSD        256GB PCIe-based SSD
+    *  MacBook Pro 2016
+    *    13インチMacBook Pro - スペースグレイ
+    *    CPU        3.3GHz     Dual-core Intel Core i7
+    *    メモリ     16GB       2133MHz LPDDR3 SDRAM
+    *    GPU        Intel Iris Graphics 550
+    *    SSD        256GB PCIe-based SSD
 
