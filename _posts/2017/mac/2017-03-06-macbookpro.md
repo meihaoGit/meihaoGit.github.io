@@ -21,3 +21,8 @@ tags: [mac]
     *    GPU        Intel Iris Graphics 550
     *    SSD        256GB PCIe-based SSD
 
+
+## MacBookProから修正
+   
+   2017.03.07 20:40 に届けました。
+   
