@@ -21,3 +21,7 @@ tags: [mac]
     *    GPU        Intel Iris Graphics 550
     *    SSD        256GB PCIe-based SSD
 
+ターミナルのデフォルトのフォント
+
+Andale Mono 15pt
+ウインドウサイズ：140*40
