@@ -314,6 +314,17 @@ IntelliJ > Preferences > Notifications > Spring Configuration Check > No popup
 
 ~~~
 
+
+* IntelliJ IDEA 2017.1.2 x64 active 
+   1.  [IntelliJ IDEA ](http://idea.lanyus.com/) - IntelliJ IDEA GetActive
+   
+   2.  license server:
+
+    http://intellij.mandroid.cn/ 
+    http://idea.imsxm.com/ 
+    http://idea.iteblog.com/key.php
+ 
+
 * IntelliJ IDEAをWindowsにインストールした際にまずやっておくべき設定
 
     1. プロジェクトのデフォルト設定
