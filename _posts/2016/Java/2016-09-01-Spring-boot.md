@@ -305,7 +305,7 @@ curl http://localhost:8080/user/selectuser
 - [IntelliJ IDEA](http://ksby.hatenablog.com/entry/2016/11/27/180337) - IntelliJ IDEA 2016.3 の新機能を試してみる
 
 
-#### 備忘
+## 備忘
 
 -  Application context not configured for this file
 
@@ -313,3 +313,17 @@ curl http://localhost:8080/user/selectuser
 IntelliJ > Preferences > Notifications > Spring Configuration Check > No popup
 
 ~~~
+
+* IntelliJ IDEAをWindowsにインストールした際にまずやっておくべき設定
+
+    1. プロジェクトのデフォルト設定
+    
+      Configure > Project Defaultes > Project Structureで New > JDK
+    
+    2.  日本語フォントを設定する
+    
+      Configure > Settings > Appearance > Override default fonts by… で Meiryo UIを有効にする.
+    
+    3.  行末カーソル制限を設定する
+    
+      Configure > Settings > Editor > Allow placement of caret after end of line のチェックマークをはずします.
