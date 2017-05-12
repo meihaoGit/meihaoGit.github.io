@@ -24,6 +24,45 @@ tags: [docker]
 
 - [Dockerツール](http://paiza.hatenablog.com/entry/docker_intro) - 2016年版、Dockerのすべてが5分でわかる
 
+- [CentOS7にdockerをインストール](http://qiita.com/maimai-swap/items/00590b96888330aa54f1) - CentOS7にdocker
+
+## CentOS7にdockerをインストール
+    
+    - docker community editionのレポジトリを追加
+    ~~~
+    # yum-config-manager \
+      --add-repo \
+      https://download.docker.com/linux/centos/docker-ce.repo
+      
+    ~~~
+    
+    - docker community editionのレポジトリを常にenableにしておくときは、以下もやる。
+    
+    ~~~
+    # yum-config-manager --enable docker-ce-edge
+
+    # vi  /etc/yum.repos.d/docker-ce.repo
+         [docker-ce-edge]
+         name=Docker CE Edge - $basearch
+         baseurl=https://download.docker.com/linux/centos/7/$basearch/edge
+         enabled=0 # offにする
+         gpgcheck=1
+         gpgkey=https://download.docker.com/linux/centos/gpg
+         
+    ~~~
+    - docker-ceをインストール
+    ~~~
+    # yum -y install docker-ce
+    ~~~
+    - docker-composeのインストール
+    
+    ~~~
+    $ curl -L "https://github.com/docker/compose/releases/download/1.8.1/docker-compose-$(uname -s)-$(uname -m)" > docker-compose
+
+    $ sudo mv docker-compose /usr/bin/
+    $ sudo chmod +x /usr/bin/docker-compose
+    ~~~
+
 #### PostgreSQL サービス起動
 
 - [docker](https://hub.docker.com/_/postgres/) - docker PostgreSQL
@@ -114,4 +153,12 @@ docker@boot2docker:~$ sudo vi /var/lib/boot2docker/profile
 docker@boot2docker:~$ sudo /etc/init.d/docker restart    
 ~~~
 
+## 参考
+
+- [docker-rails-mysql](https://github.com/okisanjp/docker-rails-mysql) - docker-rails-mysql
+
+~~~
+$ sudo docker-compose up
+
+~~~
 
