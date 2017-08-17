@@ -24,11 +24,12 @@ $ yum -y git
 - [git](https://git-scm.com/downloads) - git  
 
 ~~~
+$ cd /usr/local/src/
 $ git clone https://github.com/git/git
-
 $ cd git
 $ make prefix=/usr/local all
 $ make prefix=/usr/local install
+$ git --version
 
 ~~~
 
