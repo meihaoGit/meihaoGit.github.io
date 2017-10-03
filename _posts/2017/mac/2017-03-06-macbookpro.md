@@ -8,7 +8,7 @@ tags: [mac]
 
 ## 13インチMacBook Pro
 
-- [MacBook Pro](http://www.apple.com/jp/shop/buy-mac/macbook-pro) - MacBook Pro
+- [MacBook Pro](https://support.apple.com/kb/SP747?locale=ja_JP&viewlocale=ja_JP) - MacBook Pro (13-inch, 2016, Thunderbolt 3ポートx 2) - 技術仕様
 
 - [iFixit分解](http://gigazine.net/news/20161117-macbook-pro-touch-bar-teardown/) - iFixit分解 MacBook Pro 2016 
 
