@@ -61,3 +61,6 @@ tags: [Amazon]
       
 ##  サンプル
 - [Amazon Lex](https://github.com/awslabs/aws-lex-convo-bot-example) - Amazon Lex
+
+## AWS認定
+- [認定資格対応コース](https://www.trainocate.co.jp/reference/aws/certification/index.html) - 認定資格対応コース
