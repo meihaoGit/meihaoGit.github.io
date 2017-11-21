@@ -64,3 +64,5 @@ tags: [Amazon]
 
 ## AWS認定
 - [認定資格対応コース](https://www.trainocate.co.jp/reference/aws/certification/index.html) - 認定資格対応コース
+
+- [AWS认证权威考经](http://www.jianshu.com/p/739ec17c16fa) - AWS认证权威考经
