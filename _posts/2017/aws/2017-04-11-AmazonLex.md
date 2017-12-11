@@ -68,3 +68,5 @@ tags: [Amazon]
 - [AWS认证权威考经](http://www.jianshu.com/p/739ec17c16fa) - AWS认证权威考经
 
 - [AWS認定資格](http://desert-snow.hatenadiary.jp/entry/2017/01/26/091558) - AWS認定資格
+
+- [IBM解析微服务架构](https://www.ibm.com/developerworks/community/blogs/3302cc3b-074e-44da-90b1-5055f1dc0d9c/entry/%E8%A7%A3%E6%9E%90%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84_%E4%B8%80_%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%AE%E6%9C%8D%E5%8A%A1?lang=en) - 解析微服务架构
