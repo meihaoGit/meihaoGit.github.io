@@ -40,3 +40,5 @@ Andale Mono 15pt
  
 ## Retina MacBook
 - [Retina MacBook](https://jp.ifixit.com/Guide/Retina+MacBook+2016+%E3%81%AE%E5%88%86%E8%A7%A3/62149) - Retina MacBook
+
+- [iPhoneのバックアップ](http://www.kurasutasu.com/entry/iphone-backup-mac) - iPhoneのバックアップ場所変更
