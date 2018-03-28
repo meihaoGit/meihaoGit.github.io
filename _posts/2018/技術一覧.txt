@@ -1,67 +1,67 @@
 
-�J�^���O�̃V�X�e�����\������Z�p�ꗗ
-�J���p
-����        �Z�p��        ���R
-����        Kotlin 1.2.0        Java���Ȍ��ȃR�[�h�������ASpring FW�Ȃǂ�Java���Y�����p�ł��A�w�K�R�X�g�������Ȃ�����
-�A�v���P�[�V����FW        Spring Boot 2        Spring 5����Kotlin�Ή��������Ă���̂ŁA5���x�[�X�ƂȂ��Ă���Boot��I������
-Web FW        Spring WebFlux        ��ʂ̃��N�G�X�g�����΂���Reactive�ȏ����������ARouting���Ȍ��ɏ����邽��
-O/R Mapper�iRDB�j        JOOQ        
-�\����SQL�ɋ߂������I
-�f�[�^�}�b�s���O�֘A�̏����͎��������ł���
-��SQL�������Ȃ����߁A�R���p�C���Ő��������`�F�b�N�ł���
-SQL�ł̎��s���\
-O/R Mapper�iKVS�j        Spring Data Redis        
-�e���v���[�g�G���W��        Thymeleaf        
+カタログのシステムを構成する技術一覧
+開発用
+分類        技術名        理由
+言語        Kotlin 1.2.0        Javaより簡潔なコードが書け、Spring FWなどのJava資産が活用でき、学習コストが高くないため
+アプリケーションFW        Spring Boot 2        Spring 5からKotlin対応が入っているので、5がベースとなっているBootを選択した
+Web FW        Spring WebFlux        大量のリクエストをさばけるReactiveな処理がかけ、Routingも簡潔に書けるため
+O/R Mapper（RDB）        JOOQ        
+構文がSQLに近く直感的
+データマッピング関連の処理は自動生成できる
+生SQLを書かないため、コンパイルで整合性をチェックできる
+SQLでの実行も可能
+O/R Mapper（KVS）        Spring Data Redis        
+テンプレートエンジン        Thymeleaf        
 Lint        ktlint        
 Testing FW        JUnit 4 / DBUnit        
-���b�N FW        Mockito / PowerMock        
-�J�o���b�W���W        JaCoCo        
-�r���h�c�[��        Gradle        
-�\���Ǘ��c�[��        Ansible        
-DB�}�C�O���[�V�����c�[��        MyBatis Migrations        
+モック FW        Mockito / PowerMock        
+カバレッジ収集        JaCoCo        
+ビルドツール        Gradle        
+構成管理ツール        Ansible        
+DBマイグレーションツール        MyBatis Migrations        
 RDB        MySQL 5.7 / Aurora        
 KVS        Redis 3 / ElastiCache        
-�R���e�i�Z�p        Docker CE        
-�T�[�oOS        CentOS 7        ����Ă��āA���̏������e�ՂȂ���
-���z��        Vagrant / VirtualBox        
+コンテナ技術        Docker CE        
+サーバOS        CentOS 7        慣れていて、環境の準備が容易なため
+仮想環境        Vagrant / VirtualBox        
 
 
-����        �Z�p��        ���R
-DB�X�L�[�}����        SchemaSpy 5.0.0        
-API�h�L�������g        Swagger        
+分類        技術名        理由
+DBスキーマ可視化        SchemaSpy 5.0.0        
+APIドキュメント        Swagger        
 
 
-���[�J����
-�J�^���O�̊J�������[�J���ōs�����߂̊��́A�ȉ��̂悤�ȍ\���ō\�z����܂��B
+ローカル環境
+カタログの開発をローカルで行うための環境は、以下のような構成で構築されます。
 
-���[�J�����\���}
-XXXXX! > �J�^���O�J���Z�p��� > ���[�J����.png
+ローカル環境構成図
+XXXXX! > カタログ開発技術情報 > ローカル環境.png
 
-���[�J�����\�z�菇
-���z���\�z�p�̃��|�W�g����dev-server�𗘗p���邱�Ƃŏ�}�̊����\�z���邱�Ƃ��o���܂��B
-git�̐ݒ�����[�J������GitHub Enterprise��Ŏ��{��ASSH�G�[�W�F���g�ɃL�[��o�^���Avagrant up�����s���Ă��������B
+ローカル環境構築手順
+仮想環境構築用のリポジトリのdev-serverを利用することで上図の環境を構築することが出来ます。
+gitの設定をローカル環境とGitHub Enterprise上で実施後、SSHエージェントにキーを登録し、vagrant upを実行してください。
 
-���O����
-�܂����������Ȃ��l�̂ݎ��{
+事前準備
+まだ何も環境がない人のみ実施
 
-# git���[�U���̓o�^�i����ĂȂ���΁j
-git config --global user.name ���[�U��
-git config --global user.email ���[���A�h���X
+# gitユーザ情報の登録（やってなければ）
+git config --global user.name ユーザ名
+git config --global user.email メールアドレス
 
-# ssh-agent�̋N��(Windows�̂�)
+# ssh-agentの起動(Windowsのみ)
 eval `ssh-agent`
 
-# SSH���쐬�i�����ĂȂ���΁j
+# SSH鍵作成（つくってなければ）
 ssh-keygen -t rsa -b 4096
 
-GitHub Enterprise�Ɍ��J����o�^
+GitHub Enterpriseに公開鍵を登録
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-�J�����\�z
+開発環境構築
 ssh-add
 git clone git@github..com:XXXXX/dev-server.git
 cd dev-server
 vagrant up
-��Vagrant 2.0.1���ƃo�O������̂��Alocal���[�U�̃^�X�N���s�Ŏ��s���邽�߁A�ȉ��̃R�}���h�����s���đ��������{����K�v������B
+※Vagrant 2.0.1だとバグがあるのか、localユーザのタスク実行で失敗するため、以下のコマンドを実行して続きを実施する必要がある。
 
 vagrant reload
 vagrant ssh
@@ -69,18 +69,18 @@ vagrant ssh
 
 cd ansible
 ansible-playbook -i local local.yml
-catalog���|�W�g���̋N��
-catalog���|�W�g�����N��������܂ł̎菇�͈ȉ��ɂȂ�܂��B
+catalogリポジトリの起動
+catalogリポジトリを起動させるまでの手順は以下になります。
 
-�ŐV��dev-server��provision�����{�����ꍇ�A�}�C�O���[�V�����̎��s(migrate up)�܂Ŏ��{����邽�߁AbootRun�̎��{�݂̂�OK�ł��B
+最新のdev-serverでprovisionを実施した場合、マイグレーションの実行(migrate up)まで実施されるため、bootRunの実施のみでOKです。
 
-# �z�X�gOS��
+# ホストOS上
 cd dev-server/repositories
 git clone -b develop git@github..com:XXXXX/catalog.git
 git clone -b develop git@github..com:XXXXX/dev-db-migration.git
 vagrant ssh
 
-# �Q�X�gOS��
+# ゲストOS上
 cd repositories/dev-db-migration/catalog
 migrate up
 cd ../review
@@ -90,46 +90,81 @@ migrate up
 
 cd ../../catalog
 gradle bootRun
-�t�����g�J�����@
-catalog���|�W�g���ł́Aclient�f�B���N�g���𗘗p���āAES2017�̎d�l�𗘗p����JavaScript�̊J�������邱�Ƃ��ł��܂��B
+フロント開発方法
+catalogリポジトリでは、clientディレクトリを利用して、ES2017の仕様を利用したJavaScriptの開発をすることができます。
 
-���p�p�b�P�[�W
+利用パッケージ
 Webpack
 Babel
 css-loader
 style-loader
-client���p�菇
-�ȉ������s����ƁAsrc/main/webapp/js/dist�f�B���N�g���z���ɁAclient/src/main.js���g�����X�p�C������bundle.js���쐬����܂��B
+client利用手順
+以下を実行すると、src/main/webapp/js/distディレクトリ配下に、client/src/main.jsをトランスパイルしたbundle.jsが作成されます。
 
 cd client
 npm install
 npm run build
-Windows�̏ꍇ�Anode_modules�f�B���N�g�������L�f�B���N�g���z���ɏo����ƁA�V���{���b�N�����N�����܂��쐬�ł���
-webpack�̃C���X�g�[���ŃG���[�ɂȂ邽�߁A�ȉ����Q�X�gOS��Ŏ��s���Ă��������B
+Windowsの場合、node_modulesディレクトリが共有ディレクトリ配下に出来ると、シンボリックリンクがうまく作成できず
+webpackのインストールでエラーになるため、以下をゲストOS上で実行してください。
 
 mkdir ~/catalog_node_modules
 sudo mount --bind ~/catalog_node_modules ~/repositories/catalog/client/node_modules
-�Q�l�Fhttps://medium.com/@dtinth/isolating-node-modules-in-vagrant-9e646067b36
-�f�v���C�֘A
-Spring Boot Application���T�[�r�X�ɓo�^���āA�A�v���P�[�V�����̋N����~���Ǘ����܂��B
+参考：https://medium.com/@dtinth/isolating-node-modules-in-vagrant-9e646067b36
+デプロイ関連
+Spring Boot Applicationをサービスに登録して、アプリケーションの起動停止を管理します。
 
 https://docs.spring.io/spring-boot/docs/current/reference/html/deployment-install.html#deployment-script-customization-conf-file
-�N����~
-�J�^���O�̃A�v���P�[�V�����͊e�T�[�o�̃A�v���P�[�V�����N���p���[�U�Ő��䂵�܂��B
+起動停止
+カタログのアプリケーションは各サーバのアプリケーション起動用ユーザで制御します。
 
-���[�J�����Fvagrant
-DEV���Fwebapp
-�N��
+ローカル環境：vagrant
+DEV環境：webapp
+起動
 sudo systemctl start XXXXX-catalog
 
-��~
+停止
 sudo systemctl stop XXXXX-catalog
-���[�J�����ŏ�L���m�F����ꍇ�́A�ȉ��̎菇�𓥂�ł��������B
+ローカル環境で上記を確認する場合は、以下の手順を踏んでください。
 
-dev-server/ansible��app/catalog���[�������s
-catalog���|�W�g�����r���h
-/home/vagrant/repositories�f�B���N�g���z����build/libs�z����XXXXX-catalog.jar���R�s�[
-�N���R�}���h�����{
+dev-server/ansibleのapp/catalogロールを実行
+catalogリポジトリをビルド
+/home/vagrant/repositoriesディレクトリ配下にbuild/libs配下のXXXXX-catalog.jarをコピー
+起動コマンドを実施
 
+INT	　小数点以下を切り捨てる	2018/4 対応予定	◯	梅	◯
+FLOOR.MATH	　数値を基準値の倍数に切り下げる	2018/4 対応予定	◯	趙	◯
+FLOOR.PRECISE	　数値を基準値の倍数に切り下げる	2018/4 対応予定	◯	趙	◯
+MROUND	　指定した数値の倍数になるように丸める	2018/4 対応予定	◯	趙	◯
+CEILING.MATH	　数値を基準値の倍数に切り上げる	2018/4 対応予定	◯	趙	◯
+ISO.CEILING	　数値を基準値の倍数に切り上げる	2018/4 対応予定	◯	趙	◯
+CEILING.PRECISE	　数値を基準値の倍数に切り上げる	2018/4 対応予定	◯	趙	◯
+ISOWEEKNUM	　ISO8601方式で日付が何週目かを求める	2018/4 対応予定	◯	趙	◯
+DATESTRING	　日付を和暦に変換する	2018/4 対応予定	◯	梅	◯
+DATEVALUE	　日付を表す文字列からシリアル値を求める	2018/4 対応予定	◯	梅	◯
+TIMEVALUE	　時刻を表す文字列からシリアル値を求める	2018/4 対応予定	◯	梅	◯
+WORKDAY	　土日と祭日を除外して期日を求める	2018/4 対応予定	◯	費	
+WORKDAY.INTL	　指定した休日を除外して期日を求める	2018/4 対応予定	◯	費	
+NETWORKDAYS	　土日と祭日を除外して期間内の日数を求める	2018/4 対応予定	◯	費	
+NETWORKDAYS.INTL	　指定した休日を除外して期間内の日数を求める	2018/4 対応予定	◯	費	
+DATEDIF	　期間内の年数、月数、日数を求める	2018/4 対応予定	◯	梅	◯
+YEARFRAC	　期間が1年間に占める割合を求める	2018/4 対応予定	◯	趙	◯
+XOR	　奇数個の条件が満たされているかを調べる	2018/4 対応予定	◯	趙	
+IFS	　複数の条件を順に調べた結果に応じて異なる値を返す 2016	2018/4 対応予定	◯	趙	
+SWITCH	　複数の値を検索して一致した値に組み合わせられた結果を返す 2016	2018/4 対応予定	◯	趙	
+CELL	　セルの情報を得る	2018/4 対応予定	◯	趙	
+ISEVEN	　偶数かどうかを調べる	2018/4 対応予定	◯	梅	◯
+ISODD	　奇数かどうかを調べる	2018/4 対応予定	◯	梅	
+ISFORMULA	　数式かどうかを調べる	2018/4 対応予定	◯	費	
+REPLACEB	　指定したバイト数の文字列を置き換える	2018/2 対応予定	◯	費	
+CONCAT	　文字列を連結する 2016	2018/2 対応予定	◯	梅	◯
+TEXTJOIN	　区切り記号を挿入しながら複数の文字列を連結する 2016	2018/2 対応予定	◯	梅	
+UNICODE	　文字コードを調べる	2018/2 対応予定	◯	梅	◯
+UNICHAR	　文字コードに対応する文字を返す	2018/2 対応予定	◯	梅	◯
+JIS	　全角文字に変換する	2018/2 対応予定	◯	梅	◯
+YEN	　数値に通貨記号と桁区切り記号を付ける	2018/2 対応予定	◯	梅	◯
+NUMBERVALUE	　異なる表示形式を持つ数値の文字列を通常の数値に変換する	2018/4 対応予定	◯	費	
+NUMBERSTRING	　数値を漢数字の文字列に変換する	2018/4 対応予定	◯	費	
+ARABIC	　ローマ数字の文字列を数値に変換する	2018/2 対応予定	◯	費	
+EXACT	　文字列が等しいかどうかを調べる	2018/2 対応予定	◯	梅	◯
 
  
