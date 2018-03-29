@@ -167,4 +167,23 @@ NUMBERSTRING	　数値を漢数字の文字列に変換する	2018/4 対応予�
 ARABIC	　ローマ数字の文字列を数値に変換する	2018/2 対応予定	◯	費	
 EXACT	　文字列が等しいかどうかを調べる	2018/2 対応予定	◯	梅	◯
 
+WORKDAY	　土日と祭日を除外して期日を求める	2018/4 対応予定	◯	費			
+WORKDAY.INTL	　指定した休日を除外して期日を求める	2018/4 対応予定	◯	費		https://support.google.com/docs/answer/3294972?hl=ja	WORKDAY(開始日, 日数, [祝日])
+NETWORKDAYS	　土日と祭日を除外して期間内の日数を求める	2018/4 対応予定	◯	費			WORKDAY.INTL(開始日, 日数, [週末], [休日])
+NETWORKDAYS.INTL	　指定した休日を除外して期間内の日数を求める	2018/4 対応予定	◯	費		https://stackoverflow.com/questions/26680544/networkdays-intl-in-java?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa	NETWORKDAYS(開始日, 終了日, [祭日])
+XOR	　奇数個の条件が満たされているかを調べる	2018/4 対応予定	◯	趙			NETWORKDAYS.INTL(開始日, 終了日, [週末], [休日])
+IFS	　複数の条件を順に調べた結果に応じて異なる値を返す 2016	2018/4 対応予定	◯	趙			
+SWITCH	　複数の値を検索して一致した値に組み合わせられた結果を返す 2016	2018/4 対応予定	◯	趙		https://bz.apache.org/bugzilla/attachment.cgi?id=34878&action=edit	
+CELL	　セルの情報を得る	2018/4 対応予定	◯	趙			
+ISODD	　奇数かどうかを調べる	2018/4 対応予定	◯	梅			
+ISFORMULA	　数式かどうかを調べる	2018/4 対応予定	◯	費		http://www.cnblogs.com/feipeng8848/p/6781822.html	ISFORMULA(範囲)
+REPLACEB	　指定したバイト数の文字列を置き換える	2018/2 対応予定	◯	費			
+TEXTJOIN	　区切り記号を挿入しながら複数の文字列を連結する 2016	2018/2 対応予定	◯	梅			TEXTJOIN (区切り記号、ignore_empty、文字列 1, [文字列 2],...)
+NUMBERVALUE	　異なる表示形式を持つ数値の文字列を通常の数値に変換する	2018/4 対応予定	◯	費			NUMBERVALUE(文字列, [Decimal_separator], [Group_separator ])
+NUMBERSTRING	　数値を漢数字の文字列に変換する	2018/4 対応予定	◯	費			
+ARABIC	　ローマ数字の文字列を数値に変換する	2018/2 対応予定	◯	費			
+
+
+
+
  
