@@ -147,3 +147,28 @@ NUMBERSTRING	　数値を漢数字の文字列に変換する
 
 https://web.plus-idea.net/2016/01/how_to_read_excel_java_apache_poi/
  
+ 
+ public static void main( String[] args ) {
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+    Date dateTo = null;
+    Date dateFrom = null;
+  
+    // 日付を作成します。
+    try {
+        dateFrom = sdf.parse("2013/08/01 13:00:00");
+        dateTo = sdf.parse("2013/08/01 15:00:00");
+    } catch (ParseException e) {
+        e.printStackTrace();
+    }
+  
+    // 日付をlong値に変換します。
+    long dateTimeTo = dateTo.getTime();
+    long dateTimeFrom = dateFrom.getTime();
+  
+    // 差分の時間を算出します。
+    long dayDiff = ( dateTimeTo - dateTimeFrom  ) / (1000 * 60 * 60 );
+  
+    System.out.println( "日数(FROM) : " + sdf.format(dateFrom) );
+    System.out.println( "日数(TO) : " + sdf.format(dateTo) );
+    System.out.println( "差分時間 : " + dayDiff );
+}
