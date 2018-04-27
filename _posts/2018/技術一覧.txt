@@ -189,3 +189,5 @@ NUMBERSTRING : 形式（第２パラメータ）と出力される数字文字�
 CONCAT : セル参照は出来るが、範囲指定では＃VALUE!のエラーになる。
 TEXTJOIN :　セル参照は出来るが、範囲指定では＃VALUE!のエラーになる。
 }
+
+https://dekiru.net/article/4506/
