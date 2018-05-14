@@ -171,4 +171,23 @@ https://web.plus-idea.net/2016/01/how_to_read_excel_java_apache_poi/
     System.out.println( "日数(FROM) : " + sdf.format(dateFrom) );
     System.out.println( "日数(TO) : " + sdf.format(dateTo) );
     System.out.println( "差分時間 : " + dayDiff );
+    
+    
+    ①XSSFCell.getCellFormula にて不正な値が返ってくる
+FLOOR.MATH ： _xlfn.FLOOR.MATHになる
+FLOOR.PRECISE ： _xlfn.FLOOR.PRECISE になる
+CEILING.PRECISE : _xlfn.CEILING.PRECISEになる
+JIS ： DBCSに変更されている
+YEN : DOLLARに変更される。
+
+②計算結果
+FLOOR.MATH : 数値を直接指定するとちゃんと計算されるが、セルを参照させると計算されない。
+UNICHAR : 66 は　Bのはずがfが返ってくる。
+TIMEVALUE ： セル参照に対応していない。 時刻の形式がHH:MM(:SS)のみ対応していて、日付がついたり、"10:00 AM"などに対応していない。
+DATEVALUE : セル参照に対応していない。日付の形式が2012/01/01のみ対応していて、2012/1/1や22-MAY-2011に対応していない。
+NUMBERSTRING : 形式（第２パラメータ）と出力される数字文字列が合っていない。
+CONCAT : セル参照は出来るが、範囲指定では＃VALUE!のエラーになる。
+TEXTJOIN :　セル参照は出来るが、範囲指定では＃VALUE!のエラーになる。
 }
+
+https://dekiru.net/article/4506/
