@@ -12,6 +12,8 @@ tags: [base]
 
 - [オープンデータ関連情報](http://www.data.go.jp/for-developer/) - オープンデータ関連情報
 
+- [IBM勉強資料](http://www.data.go.jp/for-developer/https://www.ibm.com/developerworks/cn/opensource/os-beginners-guide-python/index.html) - IBM勉強資料
+
 
 ## 開発環境
 
