@@ -8,6 +8,7 @@ tags: [base]
 
 ## 参考資料
 
+ - [Restlet Client - REST API Testing](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm)  - Restlet Client - REST API Testing
 
 ## 開発環境
 
@@ -32,6 +33,14 @@ Vagrant.configure(2) do |config|
 end
 
 ~~~
+
+- ATOM環境にGO開発環境
+
+  `go get golang.org/x/tools/cmd/goimports`  
+  `go get github.com/nsf/gocode`
+  `go get github.com/rogpeppe/godef`
+  `apm install go-plus`
+  `apm install godef`
 
 - git設定
 
