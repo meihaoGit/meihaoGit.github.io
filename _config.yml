@@ -83,7 +83,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, MySQL, Oracle, SQLite, PL/SQL]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, PHP, Boostrap]
+skill_software_keywords: [Java,Golang, MySQL, Oracle, SQLite, PL/SQL]
+skill_j2ee_keywords: [Spring, Spring boot, Hibernet, MyBatis, JSP, RubyOnRails]
+skill_web_keywords: [HTML, CSS, JS, Boostrap]
 skill_mobile_app_keywords: [ios]
