@@ -78,4 +78,8 @@ end
 
 ~~~
 
+## Go言語のWebフレームワーク
+
+- [Beego](https://beego.me/) - 公式HP
+
 ## 設計関連資料
