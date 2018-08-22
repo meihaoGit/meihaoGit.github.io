@@ -2,8 +2,8 @@
 layout: post
 title:  "Go 開発データ分析勉強"
 date:   2018-05-22
-category: base
-tags: [base]
+category: go
+tags: [go]
 ---
 
 ## 参考資料
@@ -37,10 +37,10 @@ end
 - ATOM環境にGO開発環境
 
   `go get golang.org/x/tools/cmd/goimports`  
-  `go get github.com/nsf/gocode`
-  `go get github.com/rogpeppe/godef`
-  `apm install go-plus`
-  `apm install godef`
+  `go get github.com/nsf/gocode`  
+  `go get github.com/rogpeppe/godef`  
+  `apm install go-plus`  
+  `apm install godef`  
 
 - git設定
 
@@ -81,5 +81,11 @@ end
 ## Go言語のWebフレームワーク
 
 - [Beego](https://beego.me/) - 公式HP
+
+## Goのコマンド
+
+  `go env`→goのビルドに関係する環境変数を一覧表示  
+  `go build`　ファイル名  
+  `./index &`→バックグラウンドで実行  
 
 ## 設計関連資料

@@ -15,9 +15,7 @@ tags: [Go]
 
 - [Go ダウンロード](https://golang.org/dl/) - 最新のバージョンのファイルのURLを確認し、ダウンロード
 
-- [Go ダウンロード](https://github.com/astaxie/build-web-application-with-golang) - 最新のバージョンのファイルのURLを確認し、ダウンロード
-
-https://github.com/astaxie/build-web-application-with-golang
+- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) - build-web-application-with-golang
 
 - ファイルダウンロード
 
