@@ -41,6 +41,8 @@ end
   `go get github.com/rogpeppe/godef`  
   `apm install go-plus`  
   `apm install godef`  
+  
+- [IDE GoLand](https://juejin.im/post/5bc53f29f265da0ab22857dc)  - IDE GoLand
 
 - git設定
 
