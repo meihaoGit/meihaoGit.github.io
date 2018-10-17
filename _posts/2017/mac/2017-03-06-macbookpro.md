@@ -27,9 +27,15 @@ tags: [mac]
 Andale Mono 15pt
 ウインドウサイズ：140*40
 
-## MacBookProから修正
+## MacBookProを購入
    
    2017.03.07 20:40 に届けました。
+   
+## Apple Watch Nike+を購入
+
+- [Apple Watch Nike+](https://www.biccamera.com/bc/item/5822980/) - Apple Watch Nike+ Series 4（GPS + Cellularモデル）
+
+   2018.10.16 21:45 に届けました。
 
 ## Mac サイト 
 
@@ -38,7 +44,8 @@ Andale Mono 15pt
 ## iOS アプリ開発 
 - [iOS アプリ開発](https://i-app-tec.com/) - iOS アプリ開発(基礎)
  
-## Retina MacBook
+## Retina MacBook   
+
 - [Retina MacBook](https://jp.ifixit.com/Guide/Retina+MacBook+2016+%E3%81%AE%E5%88%86%E8%A7%A3/62149) - Retina MacBook
 
 - [iPhoneのバックアップ](http://www.kurasutasu.com/entry/iphone-backup-mac) - iPhoneのバックアップ場所変更
