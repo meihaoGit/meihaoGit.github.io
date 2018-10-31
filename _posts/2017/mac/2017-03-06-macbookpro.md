@@ -35,6 +35,8 @@ Andale Mono 15pt
 
 - [Apple Watch Nike+](https://www.biccamera.com/bc/item/5822980/) - Apple Watch Nike+ Series 4（GPS + Cellularモデル）
 
+- [Apple Watch ユーザガイド](https://support.apple.com/ja-jp/guide/watch/welcome/watchos) - Apple Watch ユーザガイド
+
    2018.10.16 21:45 に届けました。
 
 ## Mac サイト 
