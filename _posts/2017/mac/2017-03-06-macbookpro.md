@@ -37,6 +37,8 @@ Andale Mono 15pt
 
 - [Apple Watch ユーザガイド](https://support.apple.com/ja-jp/guide/watch/welcome/watchos) - Apple Watch ユーザガイド
 
+- [Apple Watch のステータスアイコンと記号](https://support.apple.com/ja-jp/HT205550) -  Apple Watch のステータスアイコンと記号
+
    2018.10.16 21:45 に届けました。
 
 ## Mac サイト 

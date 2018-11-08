@@ -91,3 +91,5 @@ end
   `./index &`→バックグラウンドで実行  
 
 ## 設計関連資料
+
+- [JSONのパース/生成](http://cuto.unirita.co.jp/gostudy/post/standard-library-json/)  - JSONのパース/生成
