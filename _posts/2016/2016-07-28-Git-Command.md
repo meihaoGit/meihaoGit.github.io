@@ -166,5 +166,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 ``` git branch --set-upstream-to=origin/master master``` 
 
+``` git push --set-upstream origin master```
+
 ``` git rm -r --cached 外したいフォルダ名 ``` 
 
