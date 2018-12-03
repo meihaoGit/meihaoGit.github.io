@@ -145,28 +145,28 @@ $ cat ~/.ssh/id_rsa.pub
 
 - 作業場所:ローカル
 
-``` git init ```
-``` git add . ```
-``` git commit -m "init workspace " ```
+``` git init ```    
+``` git add . ```    
+``` git commit -m "init workspace " ```    
 
 - githubでリモートリポジトリを作成する    
     リモートリポジトリのSSHをcopyする     
  
 -リモートリポジトリへ反映
 
-``` git remote add origin [リモートリポジトリのSSHのcopy]``` 
-``` git push --set-upstream origin master``` 
+``` git remote add origin [リモートリポジトリのSSHのcopy]```     
+``` git push --set-upstream origin master```     
 
 
--error: the requested upstream branch 'origin/origin' does not exist
+-error: the requested upstream branch 'origin/origin' does not exist    
 
-``` git fetch && git merge origin/master ``` 
+``` git fetch && git merge origin/master ```     
 
-``` git merge origin/master  --allow-unrelated-histories``` 
+``` git merge origin/master  --allow-unrelated-histories```     
 
-``` git branch --set-upstream-to=origin/master master``` 
+``` git branch --set-upstream-to=origin/master master```     
 
-``` git push --set-upstream origin master```
+``` git push --set-upstream origin master```    
 
-``` git rm -r --cached 外したいフォルダ名 ``` 
+``` git rm -r --cached 外したいフォルダ名 ```     
 
