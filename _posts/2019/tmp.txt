@@ -1,3 +1,5 @@
+https://github.com/dorrvid/supreme/blob/master/supreme.py
+
 https://github.com/chenghaoqw/sbuoptreme/blob/master/grab.py
 
 # coding:utf-8
@@ -110,7 +112,7 @@ def start_bot():
                         'utf8': '?',
                         'style': property_info['id'],
                         'size': size['id'],
-                        'commit': 'ƒJ[ƒg‚É“ü‚ê‚é'
+                        'commit': 'ã‚«ãƒ¼ãƒˆã«å…¥ã‚Œã‚‹'
                     }
                     good_inventory = dict()
                     good_inventory['post_data'] = urlencode(post_dict)
@@ -131,9 +133,9 @@ def start_bot():
         "credit_card[first_name]": "yang",
         "order[email]": "h924429615@gmail.com",
         "order[tel]": "09012592053",
-        "order[billing_state]": "“Œ‹“s",
-        "order[billing_city]": "?‹",
-        "order[billing_address]": "“Œ‹“s–L“‡‹æ“ì‘å’Ë1 - 51 - 9",
+        "order[billing_state]": "æ±äº¬éƒ½",
+        "order[billing_city]": "?äº¬",
+        "order[billing_address]": "æ±äº¬éƒ½è±Šå³¶åŒºå—å¤§å¡š1 - 51 - 9",
         "order[billing_zip]": "173-0005",
         "same_as_billing_address": "1",
         "credit_card[type]": "cod",
@@ -144,7 +146,7 @@ def start_bot():
         "order[terms]": "0",
         "order[terms]": "1",
         "hpcvv": "",
-        "commit": "w“ü‚·‚é"
+        "commit": "è³¼å…¥ã™ã‚‹"
     }
     token = net.pre_checkout()
     post_data = "utf8=%E2%9C%93&authenticity_token=0kQsJ4HPpS348Y%2FbiFH3K2msSnxA%2Bw4WxJFQaMFtIIcsVoy7r8HLJpabg68keePX3ogs0LeGKvqnyTX9bzXExQ%3D%3D&credit_card%5Blast_name%5D=hu&credit_card%5Bfirst_name%5D=yang&order%5Bemail%5D=h924429615%40gmail.com&order%5Btel%5D=09012592053&order%5Bbilling_state%5D=+%E6%9D%B1%E4%BA%AC%E9%83%BD&order%5Bbilling_city%5D=%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA%E5%8D%97%E5%A4%A7%E5%A1%9A1-51-9&order%5Bbilling_address%5D=%E8%97%A4%E5%92%8C%E5%8D%97%E5%A4%A7%E5%A1%9A+501&order%5Bbilling_zip%5D=173-0005&same_as_billing_address=1&credit_card%5Btype%5D=cod&credit_card%5Bcnb%5D=&credit_card%5Bmonth%5D=03&credit_card%5Byear%5D=2018&credit_card%5Bvval%5D=&order%5Bterms%5D=0&order%5Bterms%5D=1&hpcvv=&commit=%E8%B3%BC%E5%85%A5%E3%81%99%E3%82%8B"
