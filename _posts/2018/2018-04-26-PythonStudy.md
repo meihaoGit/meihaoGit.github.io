@@ -48,4 +48,4 @@ a:追加書き込み, ファイルを開いた直後のポインタの位置は�
 b:バイナリファイルとして入出力, +:読み書き両用モード
 ~~~
 
-
+- [Python JavaのソースコードをAST（Abstract Syntax Tree：抽象構文木）で構文解析](https://qiita.com/5zm/items/6e717f5f7e14f09c4007)
