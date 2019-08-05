@@ -24,7 +24,7 @@ tags: [Spring]
 
 - [簡単なSpring Batchのサンプル](https://tech-lab.sios.jp/archives/11402)
 
-- [IntelliJ IDEA (インテリジェイ アイディア](https://www.jetbrains.com/)
+- [IntelliJ IDEA (インテリジェイ アイディア)](https://www.jetbrains.com/)
 
 - [Gradle（グレードル）](https://gradle.org/)
 
@@ -48,3 +48,7 @@ tags: [Spring]
     - Aspect:AOPの単位となる横断的な関心事を示すモジュールそのもの。  
        「ログの出力」や「例外ハンドリング」などの関心事がAspectになる。  
          - AspectJ是一个基于Java语言的AOP框架，提供了强大的AOP功能  
+
+- Kotlin（コトリン）
+    - ジェットブレインズ社のアンドリー・ブレスラフ、ドミトリー・ジェメロフが開発した、  
+      静的型付けのオブジェクト指向プログラミング言語である。
