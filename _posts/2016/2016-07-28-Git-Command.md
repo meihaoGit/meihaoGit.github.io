@@ -6,6 +6,10 @@ category: Git
 tags: [Git]
 ---
 
+## git使用資料
+
+- [git doc](https://git-scm.com/book/ja/v2)
+
 ## Git インストール方法
 
 - Centos7    

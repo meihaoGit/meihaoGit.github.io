@@ -40,6 +40,41 @@ tags: [Spring]
 
 - [Apache JMeter(アパッチ ジェイメーター)](https://jmeter.apache.org/)
 
+- [Java 勉強資料](https://www.cnblogs.com/)
+
+## Spring Cloud
+
+- [Spring Cloud](https://spring.io/projects/spring-cloud)
+
+- [Spring Cloud China](https://springcloud.cc/)
+
+- [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream)
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+- []()
+
+
 ## 言葉
 
 - 【DI】（Dependency Injection）  
@@ -52,3 +87,10 @@ tags: [Spring]
 - Kotlin（コトリン）
     - ジェットブレインズ社のアンドリー・ブレスラフ、ドミトリー・ジェメロフが開発した、  
       静的型付けのオブジェクト指向プログラミング言語である。
+      
+- MyBatis3 と Spring Data JPA
+
+    - [MyBatis3](https://github.com/mybatis/mybatis-3)  
+      MyBatis はカスタム SQL、ストアドプロシージャ、高度なマッピング処理に対応した優れた永続化フレームワークです    
+      
+    - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
