@@ -94,3 +94,11 @@ tags: [Spring]
       MyBatis はカスタム SQL、ストアドプロシージャ、高度なマッピング処理に対応した優れた永続化フレームワークです    
       
     - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+
+- 疎結合(そけつごう)とは、システムの構成要素間の結びつきや互いの依存関係、関連性などが弱く、各々の独立性が高い状態のこと。  
+    逆に、要素間の結びつきが強く独立性が低い状態のことは「密結合」（tight coupling）という  
+
+
+## その他
+
+- [アイコン素材](https://icooon-mono.com/)  
