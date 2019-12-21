@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri', '~> 1.8.1'
+gem 'nokogiri'
 gem 'rough'
 gem 'jekyll-paginate'
 gem 'jekyll-geo-pattern'
