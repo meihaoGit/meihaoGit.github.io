@@ -15,15 +15,19 @@ tags: [JavaScript TypeScript]
 
 ## 自分用
 
-- 勉強リスト：
+### 勉強リスト：
 
-- [UI-design](https://www.figma.com/ja/)
+- UI
+  - [UI-design](https://www.figma.com/ja/)
 
-- [Tailwind CSS with Vue 3 and Vite](https://tailwindcss.com/docs/guides/vite)
+  - [Tailwind CSS with Vue 3 and Vite](https://tailwindcss.com/docs/guides/vite)
 
-- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+  - [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
-
+  - [vue-vben-admin](https://vvbin.cn/next/) - Full version Chinese site
+  - [vue-vben-admin-gh-pages](https://anncwb.github.io/vue-vben-admin/) - Full version of the github site
+  - [vben-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
+  - [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) -Simplified github site
 
 ## VSCode拡張機能
 
@@ -31,5 +35,5 @@ tags: [JavaScript TypeScript]
   - Vetur
   - Vue Language Features (Volar)
   - Vue 3 Snippets
-  PostCSS Language Support
+  - PostCSS Language Support
 
