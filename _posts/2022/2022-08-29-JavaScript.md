@@ -19,10 +19,17 @@ tags: [JavaScript TypeScript]
 
 - [UI-design](https://www.figma.com/ja/)
 
+- [Tailwind CSS with Vue 3 and Vite](https://tailwindcss.com/docs/guides/vite)
+
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
 
 
-## 参考資料
+## VSCode拡張機能
 
-
+- VS Code（Visual Studio Code）のVue.jsの拡張機能
+  - Vetur
+  - Vue Language Features (Volar)
+  - Vue 3 Snippets
+  PostCSS Language Support
 
