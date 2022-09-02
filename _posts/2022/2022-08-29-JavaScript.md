@@ -24,6 +24,10 @@ tags: [JavaScript TypeScript]
 
   - [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 
+  - [astro](https://docs.astro.build/zh-cn/getting-started/)
+
+  - [Complete Vue.js 3 Course: Vuejs 3, Vite, TailwindCSS, Pinia](https://vvbin.cn/next/)
+  
   - [vue-vben-admin](https://vvbin.cn/next/) - Full version Chinese site
   - [vue-vben-admin-gh-pages](https://anncwb.github.io/vue-vben-admin/) - Full version of the github site
   - [vben-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
