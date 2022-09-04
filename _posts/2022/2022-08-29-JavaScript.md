@@ -33,6 +33,8 @@ tags: [JavaScript TypeScript]
   - [vben-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
   - [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) -Simplified github site
 
+  - [vue3.0-typescript-starter](https://github.com/sunshine824/vue3.0-typescript-starter) -vue3.0-typescript-starter
+
 ## VSCode拡張機能
 
 - VS Code（Visual Studio Code）のVue.jsの拡張機能
