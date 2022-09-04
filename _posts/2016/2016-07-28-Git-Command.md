@@ -181,3 +181,12 @@ $ cat ~/.ssh/id_rsa.pub
 ``` git rm -r --cached 外したいフォルダ名 ```   
 ~~~
 
+~~~sh
+# 1) コンフり起こしてるファイルを一時退避
+```$ git stash```
+# 2) 退避したコミットしていないものが表示されるのでpullする
+```$ git pull origin master```
+# 3) スタッシュを戻す
+```$ git stash pop```
+~~~
+
