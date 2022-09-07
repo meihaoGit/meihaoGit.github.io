@@ -53,3 +53,22 @@ TypeORM + Typescript の実装サンプル
 
 ## Mybatis Plus
  - [Mybatis Plus](https://www.w3cschool.cn/mybatis_plus/mybatis_plus-j9da3mgg.html) - Mybatis Plus
+
+
+## Port 8080 was already in use
+
+- 1. mac/linuxの場合
+
+```sh
+lsof -i -P | grep 8080
+
+kill -9 28795
+```
+
+- 2. Windowsの場合
+
+```sh
+netstat -ano | findstr 8080
+
+taskkill /F /pid 19508
+```
