@@ -33,7 +33,7 @@ tags: [JavaScript TypeScript]
   - [vben-admin-thin-next](https://vvbin.cn/thin/next/) - Simplified Chinese site
   - [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) - Simplified github site
   - [vue-vben-admin-.NET](https://github.com/daiyekun/DevAdmin) - DevAdmin
-  - [vue-vben JEECG BOOT](hhttps://github.com/jeecgboot/jeecg-boot) - JEECG BOOT
+  - [vue-vben JEECG BOOT](https://github.com/jeecgboot/jeecg-boot) - JEECG BOOT
   - [vue3.0-typescript-starter](https://github.com/sunshine824/vue3.0-typescript-starter) -vue3.0-typescript-starter
 
 - TypeORM
