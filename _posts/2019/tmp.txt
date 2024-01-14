@@ -2,6 +2,8 @@ https://github.com/dorrvid/supreme/blob/master/supreme.py
 
 https://github.com/chenghaoqw/sbuoptreme/blob/master/grab.py
 
+http://ja-lksv1.ttc.toyotsu.co.jp:8081/svn/JAST/作業用/05.標準化/99.チーム内共有/調査依頼/20240105001_TSC検証作業(MQ・秤量機・ハンディ)
+
 # coding:utf-8
 import json
 import re
